@@ -1,0 +1,198 @@
+
+.loop-wrapper.news {
+    @space: 15px;
+	
+	.page-content {
+		background: none !important;
+		overflow: hidden;
+		position: relative;
+		.border-box();
+
+		&:first-child {
+			margin-top: -@space !important;
+		}
+
+		&:last-child {
+			border-bottom: none !important;
+			padding-bottom: 0;
+		}
+		
+		/* Same as above, but separated because IE8 will ignore it otherwise */
+		&.last-child {
+			border-bottom: none !important;
+			padding-bottom: 0;
+		}
+    }
+	
+	.row > .page-content {
+		margin-top: 0 !important;
+		margin-right: 2%;
+		
+		&.last {
+			margin-right: 0;
+		}
+	}
+	
+	.post-article {
+		padding: 0px;
+		border-bottom: 0px !important;
+		margin: 0;
+		overflow  : hidden;
+		&:after {
+			background: none;
+			height: 0;
+		}
+	}
+	
+	.thumbnail {
+		width     : 100%;
+		overflow  : visible;
+		text-align: center;
+		position: relative;
+		
+		&:before,
+		&:after {
+			position: absolute;
+			z-index : 1;
+			border  : 1px solid @default-line-color;
+			top     : 100%;
+			left    : 2px;
+			right   : 2px;
+			content : "";
+		}
+		&:before {
+			height: 3px;
+		}
+		&:after {
+			height: 1px;
+		}
+
+		img {
+			height: auto;
+			width: 100%;
+		}
+	}
+	
+    header {
+		margin    : 0 !important;
+		padding   : @element-padding/2 0 0 0;
+		width     : auto;
+		display   : block;
+
+		&:first-child {
+			padding-top: 0;
+		}
+		
+		&:after {
+			content: "";
+			display: block;
+			clear : both;
+		}
+		
+		.content {
+			display: block;
+			float: left;
+			height: auto;
+			white-space: normal;
+			text-align: left;
+		}
+		
+		h6, h5 {
+			display: block !important;
+			line-height: @h5-lheight;
+			margin: 0;
+			
+		}
+
+		h3 a {
+			color: @css_link_color;
+
+			&:visited {
+				color: @css_link_visited_color;
+			}
+
+			&:hover {
+				color: @css_link_hover_color;
+			}
+		}
+
+		.entry-date {
+			display: none !important;
+		}
+	}
+
+	.post-subheader {
+		padding: 5px 0 6px;
+		margin-bottom: 5px;
+		border-bottom: 1px solid @default-line-color;
+		
+		&:after {
+			content: "";
+			display: block;
+			clear : both;
+		}
+		
+		.post-date {
+			padding: 0;
+			display: block;
+			text-transform: uppercase;
+			margin-bottom: 0;
+			color: @additional-font-1-color;
+			float: left;
+			.wpv-font(additional-font-1-);
+		}
+		
+		.post-date-after {
+			display: none;
+		}
+	}
+	.comment-count {
+		float: right;
+		
+		.icon {
+			float : left;
+			color: @additional-font-1-color !important;
+			margin-right: 6px;
+			line-height: 8px;
+		}
+		
+		.comment-word {
+			display: none;
+		}
+		
+		a {
+			.wpv-font(additional-font-1-);
+			color: @additional-font-1-color;
+			vertical-align: middle;
+			float : left;
+		}
+	}
+
+    .single-post-format {
+		bottom: 6px;
+		left: 6px;
+		top: auto;
+		right: auto;
+		overflow: hidden;
+		width: 16px;
+		height: 16px;
+		background: transparent;
+		text-align: left;
+		
+		.icon {
+			width: 16px;
+			height: 16px;
+			font-size: 16px;
+			line-height: 16px;
+			background: none;
+			color: @accent-color-8 !important;
+		}
+	}
+	
+    .post-edit-link,
+	.post-content-outer,
+	.post-content,
+	.sep-text-after	{
+    	display: none;
+    }
+}

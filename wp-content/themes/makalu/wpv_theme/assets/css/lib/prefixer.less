@@ -1,0 +1,699 @@
+//   ---------------------------------------------------
+//	 LESS Prefixer
+//   ---------------------------------------------------
+
+//	 All of the CSS3 fun, none of the prefixes!
+
+//	 As a rule, you can use the CSS properties you
+//	 would expect just by adding a '.':
+
+//	 box-shadow => .box-shadow(@args)
+
+//	 Also, when shorthand is available, arguments are
+//	 not parameterized. Learn CSS, not LESS Prefixer.
+
+//	 -------------------------------------------------
+//	 TABLE OF CONTENTS
+//	 (*) denotes a syntax-sugar helper
+//	 -------------------------------------------------
+
+//		 .animation(@args)
+//			 .animation-delay(@delay)
+//			 .animation-direction(@direction)
+//			 .animation-duration(@duration)
+//			 .animation-iteration-count(@count)
+//			 .animation-name(@name)
+//			 .animation-play-state(@state)
+//			 .animation-timing-function(@function)
+//		 .background-size(@args)
+//		 .border-radius(@args)
+//		 .box-shadow(@args)
+//			 .inner-shadow(@args) *
+//		 .box-sizing(@args)
+//			 .border-box() *
+//			 .content-box() *
+//		 .columns(@args)
+//			 .column-count(@count)
+//			 .column-gap(@gap)
+//			 .column-rule(@args)
+//			 .column-width(@width)
+//		 .gradient(@default,@start,@stop) *
+//			 .linear-gradient-top(@default,@color1,@stop1,@color2,@stop2,[@color3,@stop3,@color4,@stop4])*
+//			 .linear-gradient-left(@default,@color1,@stop1,@color2,@stop2,[@color3,@stop3,@color4,@stop4])*
+//		 .opacity(@factor)
+//		 .transform(@args)
+//			 .rotate(@deg)
+//			 .scale(@factor)
+//			 .translate(@x,@y)
+//			 .translate3d(@x,@y,@z)
+//			 .translateHardware(@x,@y) *
+//		 .text-shadow(@args)
+//		 .transition(@args)
+//			 .transition-delay(@delay)
+//			 .transition-duration(@duration)
+//			 .transition-property(@property)
+//			 .transition-timing-function(@function)
+
+
+
+//	 Credit to LESS Elements for the motivation and
+//	 to CSS3Please.com for implementation.
+
+//	 Copyright (c) 2012 Joel Sutherland
+//	 MIT Licensed:
+//	 http://www.opensource.org/licenses/mit-license.php
+
+// -----------------------------------------------------
+
+
+// Animation
+.animation(@args) {
+	-webkit-animation: @args;
+	-moz-animation: @args;
+	-ms-animation: @args;
+	-o-animation: @args;
+}
+.animation-delay(@delay) {
+	-webkit-animation-delay: @delay;
+	-moz-animation-delay: @delay;
+	-ms-animation-delay: @delay;
+	-o-animation-delay: @delay;
+}
+.animation-direction(@direction) {
+	-webkit-animation-direction: @direction;
+	-moz-animation-direction: @direction;
+	-ms-animation-direction: @direction;
+	-o-animation-direction: @direction;
+}
+.animation-duration(@duration) {
+	-webkit-animation-duration: @duration;
+	-moz-animation-duration: @duration;
+	-ms-animation-duration: @duration;
+	-o-animation-duration: @duration;
+}
+.animation-iteration-count(@count) {
+	-webkit-animation-iteration-count: @count;
+	-moz-animation-iteration-count: @count;
+	-ms-animation-iteration-count: @count;
+	-o-animation-iteration-count: @count;
+}
+.animation-name(@name) {
+	-webkit-animation-name: @name;
+	-moz-animation-name: @name;
+	-ms-animation-name: @name;
+	-o-animation-name: @name;
+}
+.animation-play-state(@state) {
+	-webkit-animation-play-state: @state;
+	-moz-animation-play-state: @state;
+	-ms-animation-play-state: @state;
+	-o-animation-play-state: @state;
+}
+.animation-timing-function(@function) {
+	-webkit-animation-timing-function: @function;
+	-moz-animation-timing-function: @function;
+	-ms-animation-timing-function: @function;
+	-o-animation-timing-function: @function;
+}
+.animation-fill-mode(@fill-mode) {
+	-webkit-animation-fill-mode: @fill-mode;
+	-moz-animation-fill-mode: @fill-mode;
+	-ms-animation-fill-mode: @fill-mode;
+	-o-animation-fill-mode: @fill-mode;
+}
+
+
+// Background Size
+
+.background-size(@arg:auto) {
+	-webkit-background-size: @arg;
+	-moz-background-size: @arg;
+	background-size: @arg;
+}
+
+
+// Border Radius
+
+.border-radius(@args) {
+	border-radius: @args;
+	background-clip: padding-box;
+}
+
+
+// Border Image
+.border-image(@args) {
+	-webkit-border-image: @args;
+	   -moz-border-image: @args;
+		 -o-border-image: @args;
+		-ms-border-image: @args;
+			border-image: @args;
+}
+
+// Box Shadows
+.box-shadow(@args) {
+	-webkit-box-shadow: @args;
+	-moz-box-shadow: @args;
+	box-shadow: @args;
+}
+.inner-shadow(@args) {
+	.box-shadow(inset @args);
+}
+
+
+// Box Sizing
+.box-sizing(@args){
+	-webkit-box-sizing: @args;
+	-moz-box-sizing: @args;
+	box-sizing: @args;
+}
+.border-box(){
+	.box-sizing(border-box);
+}
+.content-box(){
+	.box-sizing(content-box);
+}
+
+
+
+// Columns
+.columns(@args){
+	-webkit-columns: @args;
+	-moz-columns: @args;
+	columns: @args;
+}
+.column-count(@count) {
+	-webkit-column-count: @count;
+	-moz-column-count: @count;
+	column-count: @count;
+}
+.column-gap(@gap) {
+	-webkit-column-gap: @gap;
+	-moz-column-gap: @gap;
+	column-gap: @gap;
+}
+.column-width(@width){
+	-webkit-column-width: @width;
+	-moz-column-width: @width;
+	column-width: @width;
+}
+.column-rule(@args){
+	-webkit-column-rule: @rule;
+	-moz-column-rule: @rule;
+	column-rule: @rule;
+}
+
+
+// Gradients
+.gradient(@default: #F5F5F5, @start: #EEE, @stop: #FFF) {
+	.linear-gradient-top(@default,@start,0%,@stop,100%);
+}
+.linear-gradient-top(@default,@color1,@stop1,@color2,@stop2) {
+	background-color: @default;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(@stop1, @color1), color-stop(@stop2 @color2));
+	background-image: -webkit-linear-gradient(top, @color1 @stop1, @color2 @stop2);
+	background-image: -moz-linear-gradient(top, @color1 @stop1, @color2 @stop2);
+	background-image: -ms-linear-gradient(top, @color1 @stop1, @color2 @stop2);
+	background-image: -o-linear-gradient(top, @color1 @stop1, @color2 @stop2);
+	background-image: linear-gradient(top, @color1 @stop1, @color2 @stop2);
+}
+.linear-gradient-top(@default,@color1,@stop1,@color2,@stop2,@color3,@stop3) {
+	background-color: @default;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(@stop1, @color1), color-stop(@stop2 @color2), color-stop(@stop3 @color3));
+	background-image: -webkit-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: -moz-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: -ms-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: -o-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+}
+.linear-gradient-top(@default,@color1,@stop1,@color2,@stop2,@color3,@stop3,@color4,@stop4) {
+	background-color: @default;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(@stop1, @color1), color-stop(@stop2 @color2), color-stop(@stop3 @color3), color-stop(@stop4 @color4));
+	background-image: -webkit-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: -moz-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: -ms-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: -o-linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: linear-gradient(top, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+}
+.linear-gradient-left(@default,@color1,@stop1,@color2,@stop2) {
+	background-color: @default;
+	background-image: -webkit-gradient(linear, left top, left top, color-stop(@stop1, @color1), color-stop(@stop2 @color2));
+	background-image: -webkit-linear-gradient(left, @color1 @stop1, @color2 @stop2);
+	background-image: -moz-linear-gradient(left, @color1 @stop1, @color2 @stop2);
+	background-image: -ms-linear-gradient(left, @color1 @stop1, @color2 @stop2);
+	background-image: -o-linear-gradient(left, @color1 @stop1, @color2 @stop2);
+	background-image: linear-gradient(left, @color1 @stop1, @color2 @stop2);
+}
+.linear-gradient-left(@default,@color1,@stop1,@color2,@stop2,@color3,@stop3) {
+	background-color: @default;
+	background-image: -webkit-gradient(linear, left top, left top, color-stop(@stop1, @color1), color-stop(@stop2 @color2), color-stop(@stop3 @color3));
+	background-image: -webkit-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: -moz-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: -ms-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: -o-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+	background-image: linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3);
+}
+.linear-gradient-left(@default,@color1,@stop1,@color2,@stop2,@color3,@stop3,@color4,@stop4) {
+	background-color: @default;
+	background-image: -webkit-gradient(linear, left top, left top, color-stop(@stop1, @color1), color-stop(@stop2 @color2), color-stop(@stop3 @color3), color-stop(@stop4 @color4));
+	background-image: -webkit-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: -moz-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: -ms-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: -o-linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+	background-image: linear-gradient(left, @color1 @stop1, @color2 @stop2, @color3 @stop3, @color4 @stop4);
+}
+
+
+// Opacity
+.opacity(@factor){
+	opacity: @factor;
+}
+
+
+// Text Shadow
+.text-shadow(@args){
+	text-shadow: @args;
+}
+
+// Transforms
+
+.transform(@args) {
+	-webkit-transform: @args;
+	-moz-transform: @args;
+	-ms-transform: @args;
+	-o-transform: @args;
+	transform: @args;
+}
+.rotate(@deg:45deg){
+	.transform(rotate(@deg));
+}
+.scale(@factor:.5){
+	.transform(scale(@factor));
+}
+.translate(@x,@y){
+	.transform(translate(@x,@y));
+}
+.translate3d(@x,@y,@z) {
+	.transform(translate3d(@x,@y,@z));
+}
+.translateHardware(@x,@y){
+	.translate(@x,@y);
+	-webkit-transform: translate3d(@x,@y,0);
+	-moz-transform: translate3d(@x,@y,0);
+}
+
+.transform-origin(@args) {
+	-webkit-transform-origin: @args;
+	   -moz-transform-origin: @args;
+		-ms-transform-origin: @args;
+		 -o-transform-origin: @args;
+			transform-origin: @args;
+}
+
+.transform-style(@args) {
+	-webkit-transform-style: @args;
+	   -moz-transform-style: @args;
+		-ms-transform-style: @args;
+		 -o-transform-style: @args;
+			transform-style: @args;
+}
+
+
+// Transitions
+
+.transition(@args:200ms) {
+	-webkit-transition: @args;
+	-moz-transition: @args;
+	-o-transition: @args;
+	transition: @args;
+}
+.transition-delay(@delay:0) {
+	-webkit-transition-delay: @delay;
+	-moz-transition-delay: @delay;
+	-o-transition-delay: @delay;
+	transition-delay: @delay;
+}
+.transition-duration(@duration:200ms) {
+	-webkit-transition-duration: @duration;
+	-moz-transition-duration: @duration;
+	-o-transition-duration: @duration;
+	transition-duration: @duration;
+}
+.transition-property(@property:all) {
+	-webkit-transition-property: @property;
+	-moz-transition-property: @property;
+	-o-transition-property: @property;
+	transition-property: @property;
+}
+.transition-timing-function(@function:ease) {
+	-webkit-transition-timing-function: @function;
+	-moz-transition-timing-function: @function;
+	-o-transition-timing-function: @function;
+	transition-timing-function: @function;
+}
+
+
+.rgba-bg(@color:transparent) when (iscolor(@color)) and (alpha(@color) < 1) {
+	@alphaColor: hsla(hue(@color), saturation(@color), lightness(@color), alpha(@color));
+	@ieAlphaColor: argb(@alphaColor);
+	background-color: @alphaColor;
+	.ie8 & {
+		zoom: 1;
+		background-color: transparent;
+		-ms-filter:  "progid:DXImageTransform.Microsoft.gradient(startColorstr='@{ieAlphaColor}', endColorstr='@{ieAlphaColor}', GradientType=0)"; // IE 8+
+	}
+}
+.rgba-bg(@color) when not(iscolor(@color)) {
+	.rgba-bg(rgba(0, 0, 0, 0));
+}
+
+.rgba-bg(@color:transparent) {
+	background-color: @color;
+}
+
+
+
+.bg (@url, @repeat:repeat, @position:center, @attachment:scroll, @color:transparent, @size:auto)
+when (isstring(@url)) {
+	background: url(@{url}) @repeat @position @attachment;
+	.bg-color(@color);
+	.background-size(@size);
+}
+
+.bg (@url, @repeat:repeat, @position:center, @attachment:scroll, @color:transparent, @size:auto)
+when not (isstring(@url)) {
+	background-repeat: @repeat;
+	background-position: @position;
+	background-attachment: @attachment;
+	.bg-color(@color);
+	.background-size(@size);
+}
+
+.bg-color(@color) when (iscolor(@color)) and (alpha(@color) < 1) {
+	@noAlpha: hsl(hue(@color), saturation(@color), lightness(@color));
+	background-color: @noAlpha; // IE8
+	background-color: @color;
+}
+
+.bg-color(@color) when (iscolor(@color)) and (alpha(@color) = 1) {
+	background-color: @color;
+}
+
+.bg-color(@color:transparent) {
+	background-color: @color;
+}
+
+// Generates colors from the given basecolor
+// -----------------------------------------------------------------------------
+
+
+
+.readable-color(@bgcolor:#FFF, @treshold:70, @diff:50%) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) >= @treshold ) {
+	color: darken(fade(@bgcolor, 100), @diff);
+}
+.readable-color(@bgcolor:#FFF, @treshold:70, @diff:50%) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) < @treshold ) {
+	color: lighten(fade(@bgcolor, 100), @diff);
+}
+.readable-border(@bgcolor:#FFF, @treshold:70, @diff:50%) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) >= @treshold ) {
+	border-color: darken(fade(@bgcolor, 100), @diff);
+}
+.readable-border(@bgcolor:#FFF, @treshold:70, @diff:50%) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) < @treshold ) {
+	border-color: lighten(fade(@bgcolor, 100), @diff);
+}
+.readable-bgcolor(@bgcolor:#FFF, @treshold:70, @diff:50%) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) >= @treshold ) {
+	background-color: darken(fade(@bgcolor, 100), @diff);
+}
+.readable-bgcolor(@bgcolor:#FFF, @treshold:70, @diff:50%) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) < @treshold ) {
+	background-color: lighten(fade(@bgcolor, 100), @diff);
+}
+
+
+
+.color-to-readable(@color:transparent, @bgcolor:#FFF, @contrast: 0.3) {
+	color : @color;
+}
+
+/* use darker color */
+.color-to-readable(@color:transparent, @bgcolor:#FFF, @contrast: 0.5)
+	when (iscolor(@color))
+	and  (iscolor(@bgcolor))
+	and  (lightness(@bgcolor) >= 50)
+	and  ((lightness(@bgcolor) - lightness(@color)) < 30 )
+	and  ((lightness(@bgcolor) - lightness(@color)) > -30)
+{
+	@l : lightness(@color);
+	color: hsl(hue(@color), saturation(@color), @l - @l * @contrast);
+}
+
+/* use lighter color */
+.color-to-readable(@color:transparent, @bgcolor:#FFF, @contrast: 0.5)
+	when (iscolor(@color))
+	and (iscolor(@bgcolor))
+	and (lightness(@bgcolor) < 50)
+	and  ((lightness(@color) - lightness(@bgcolor)) < 30 )
+	and  ((lightness(@color) - lightness(@bgcolor)) > -30)
+{
+	@l : lightness(@color);
+	color : hsl(hue(@color), saturation(@color), @l + (100 - @l) * @contrast);
+}
+
+
+
+
+
+
+
+
+// Generates buttons
+// -----------------------------------------------------------------------------
+.button-gen(@bgcolor:#DDD) when (iscolor(@bgcolor)) {
+	@dark: darken(@bgcolor, 10%);
+
+	background: @bgcolor;
+	text-decoration: none;
+	vertical-align: middle;
+	overflow: hidden;
+
+	.linear-gradient-top(@bgcolor, @bgcolor, 0%, @dark, 101%);
+	.box-shadow(~"0 1px 0 0 rgba(255, 255, 255, 0.3) inset");
+	border: 1px solid darken(@bgcolor, 7%);
+	.readable-color(@bgcolor);
+	.button-text-shadow(@bgcolor);
+
+	span {
+		.readable-color(@bgcolor);
+		.button-text-shadow(@bgcolor);
+	}
+
+	&:after {
+		.readable-color(@bgcolor, 30, 30%);
+	}
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		.linear-gradient-top(@dark, @dark, 0%, @bgcolor, 100%);
+		.readable-color(@bgcolor) !important;
+	}
+
+	&:active {
+		background-image: none;
+
+		background: @dark;
+		.readable-color(@bgcolor);
+	}
+
+	.ie9 & {
+		.box-shadow(~"0 1px 0 0 rgba(255, 255, 255, 0.3) inset, inset 0px -2em 2em -1em rgba(0,0,0,0.23)");
+		&:hover,
+		&:focus {
+			background: @bgcolor;
+			.box-shadow(~"0 1px 0 0 rgba(255, 255, 255, 0.3) inset, inset 0px 2em 2em -1em rgba(0,0,0,0.23)");
+		}
+		&:active {
+			background: @dark;
+			.box-shadow(~"0 1px 0 0 rgba(255, 255, 255, 0.3) inset, 0 -3px 0 0 rgba(0, 0, 0, 0.23) inset");
+		}
+	}
+
+	@alpha-bgcolor: hsla(hue(@bgcolor), saturation(@bgcolor), lightness(@bgcolor), alpha(@bgcolor));
+	@alpha-darkcolor: hsla(hue(@dark), saturation(@dark), lightness(@dark), alpha(@dark));
+	@bgcolor-argb: argb(@alpha-bgcolor);
+	@dark-argb: argb(@alpha-darkcolor);
+
+	.ie8 &	{
+		zoom: 1;
+		filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr='@{bgcolor-argb}', endColorstr='@{dark-argb}', GradientType=0)";
+
+		.small {
+			padding: 4px 1em 1px;
+		}
+		.button.medium {
+			padding: 6px 0.6em 3px;
+		}
+		.button.large {
+			padding: 10px 1.6em 7px;
+		}
+
+		&:after {
+			.readable-color(@bgcolor, 30, 30%);
+		}
+
+		&:hover,
+		&:focus {
+			filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr='@{dark-argb}', endColorstr='@{bgcolor-argb}', GradientType=0)";
+
+			&:after {
+				.readable-color(@dark, 70, 60%);
+			}
+		}
+	}
+}
+
+.button-gen(@bgcolor:#DDD) when not (iscolor(@bgcolor)) {
+	.button-gen();
+}
+
+.button-text-shadow(@bgcolor:#FFF, @treshold:70) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) >= @treshold ) {
+	text-shadow: 0 1px 0 fade(#fff, 30);
+}
+.button-text-shadow(@bgcolor:#FFF, @treshold:70) when (iscolor(@bgcolor)) and ( lightness(@bgcolor) < @treshold ) {
+	text-shadow: 0 1px 0 fade(#000, 30);
+}
+
+// -----------------------------------------------------------------------------
+
+.linkarea-gen(@bgcolor:#DDD) when (iscolor(@bgcolor)) {
+	&:hover,
+	&:focus {
+		background-color: @bgcolor;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+
+	&:active {
+		background-color: darken(@bgcolor, 5%);
+	}
+
+	&:focus {
+		border : 1px solid darken(@bgcolor, 15%);
+		outline: none;
+	}
+}
+
+.linkarea-gen-bg(@bgcolor:#DDD) when (iscolor(@bgcolor)) {
+	background-color: @bgcolor;
+}
+
+// -----------------------------------------------------------------------------
+
+.background-color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) {
+	background-color: @color;
+}
+.background-color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) when not (iscolor(@color)) {
+	.background-color-from-page-bg(@secondcolor);
+}
+.background-color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) when not (iscolor(@color)) and not (iscolor(@secondcolor)) {
+	.background-color-from-page-bg(#FFF);
+}
+
+
+.border-color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) {
+	border-color: @color;
+}
+.border-color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) when not (iscolor(@color)) {
+	.border-color-from-page-bg(@secondcolor);
+}
+.border-color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) when not (iscolor(@color)) and not (iscolor(@secondcolor)) {
+	.border-color-from-page-bg(#FFF);
+}
+
+
+.color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) {
+	color: @color;
+}
+.color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) when not (iscolor(@color)) {
+	.color-from-page-bg(@secondcolor);
+}
+.color-from-page-bg(@color:@main-background-color, @secondcolor:@body-background-color) when not (iscolor(@color)) and not (iscolor(@secondcolor)) {
+	.color-from-page-bg(#FFF);
+}
+
+.opacity(@alpha:0) {
+	opacity: @alpha;
+	.ie8 & {
+		zoom: 1;
+		-ms-filter: e(~"alpha(opacity=%s)", @alpha * 100);
+	}
+}
+
+.background-origin(@arg) {
+	-webkit-background-origin: @arg;
+			background-origin: @arg;
+}
+
+/* Fonts -------------------------------------------------------------------- */
+.wpv-font-size(@prefix:primary-font-) {
+	@font-size : e("@{prefix}size");
+	font-size  : @@font-size;
+}
+.wpv-font-weight(@prefix:primary-font-) {
+	@font-weight : e("@{prefix}weight");
+	font-weight  : @@font-weight;
+}
+.wpv-font-family(@prefix:primary-font-) {
+	@font-family : e("@{prefix}face");
+	font-family  : @@font-family;
+}
+.wpv-line-height(@prefix:primary-font-) {
+	@line-height : e("@{prefix}lheight");
+	line-height  : @@line-height;
+}
+.wpv-font(@prefix:primary-font-) {
+	//.wpv-font-size  (@prefix);
+	//.wpv-line-height(@prefix);
+	//.wpv-font-family(@prefix);
+	//.wpv-font-weight(@prefix);
+
+	@font-weight : e("@{prefix}weight" );
+	@font-size   : e("@{prefix}size"   );
+	@line-height : e("@{prefix}lheight");
+	@font-family : e("@{prefix}face"   );
+
+	font: e(%("%s %s / %s %s", @@font-weight, @@font-size, @@line-height, @@font-family));
+}
+.wpv-color(@prefix:primary-font-) {
+	@color : e("@{prefix}color");
+	color  : @@color;
+}
+
+
+
+.text-shadow-inset(@color:#888, @dark-contrast:50%, @light-contrast:50%) when (iscolor(@color)) {
+	text-shadow: 0 -1px 0 darken(@color, @dark-contrast), 0 1px 0 lighten(@color, @light-contrast) !important;
+}
+
+.fixed() {
+	position: fixed;
+	//-webkit-backface-visibility: hidden;
+}
+
+.formElementColors(@color:@main-background-color) when (iscolor(@color)) {
+	@bg : lighten(@color, 8%);
+
+	background-color: @bg;
+	.readable-color(@bg);
+	&::-webkit-input-placeholder {
+		.readable-color(@bg, 70, 30%);
+	}
+	&:-moz-placeholder {
+		.readable-color(@bg, 70, 30%);
+	}
+	&::-moz-placeholder {
+		.readable-color(@bg, 70, 30%);
+	}
+	&:-ms-input-placeholder {
+		.readable-color(@bg, 70, 30%);
+	}
+}

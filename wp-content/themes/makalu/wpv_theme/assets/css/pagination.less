@@ -1,0 +1,55 @@
+.load-more,
+.wp-pagenavi {
+	margin-top: 50px;
+
+	.products + & {
+		margin-top: 0;
+	}
+}
+
+.wp-pagenavi {
+	text-align: center;
+	border-top: 1px solid @default-line-color;
+	z-index: 100;
+	position: relative;
+	
+	article > .page-content > section.portfolios > & {
+		margin: 0 10px;
+	}
+	
+	a, span {
+		margin: 5px 3px;
+		border: none !important;
+		display: inline-block;
+		padding: 6px;
+	}
+	
+	.current {
+		background-color: @accent-color-1;
+		.readable-color(@accent-color-1);
+	}
+	
+	.previouspostslink,
+	.nextpostslink {
+		color: transparent !important;
+		&:after {
+			.color-to-readable(@accent-color-1, @main-background-color); 
+			font-family: theme;
+			font-size: bold;
+		}
+	}
+	
+	.previouspostslink:after {
+		content: icon(theme-angle-left);
+	}
+	
+	.nextpostslink:after {
+		content: icon(theme-angle-right);
+	}
+}
+
+.comment-paging {
+	border-top: 0;
+	margin-top: -(@content-padding + 10px);
+	margin-bottom: @content-padding + 10px;
+}

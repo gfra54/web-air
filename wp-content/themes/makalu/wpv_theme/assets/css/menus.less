@@ -1,0 +1,381 @@
+@menu-bg-color            : @css_menu_background;
+@menu-bg-alpha            : 1;
+@menu-bg-color-alpha      : hsla(hue(@menu-bg-color), saturation(@menu-bg-color), lightness(@menu-bg-color), @menu-bg-alpha);
+@menu-bg-color-top        : @menu-bg-color-alpha + #111;
+@menu-bg-color-bottom     : @menu-bg-color-alpha - #111;
+@menu-bg-color-top-argb   : argb(@menu-bg-color-top);
+@menu-bg-color-bottom-argb: argb(@menu-bg-color-bottom);
+@menu-outline-color       : hsla(hue(@accent-color-1), saturation(@accent-color-1), lightness(@accent-color-1), 0.7);
+@menu-outline-color       : hsl(hue(@accent-color-1), saturation(@accent-color-1), lightness(@menu-bg-color-bottom));
+@menuitem-padding-x       : 10px;
+@menuitem-padding-y       : 10px;
+
+/* -------------------------------------------------------------------------- */
+
+/* Level 0 */
+@menu-level0-bg         : transparent;
+@menu-level0-color      : @menu-font-color;
+@menu-level0-hover-bg   : transparent;
+@menu-level0-hover-color: @css_menu_hover_color;
+
+/* Level 1 */
+@menu-level1-bg         : @css_menu_background;
+@menu-level1-color      : @css_submenu_color;
+@menu-level1-hover-bg   : @css_submenu_color;
+@menu-level1-hover-color: @css_submenu_hover_color;
+
+/* Level 2+ */
+@menu-level2-bg         : @css_submenu_color;
+@menu-level2-color      : @css_menu_background;
+@menu-level2-hover-bg   : darken(@css_submenu_color, 10%);
+@menu-level2-hover-color: @accent-color-1;
+
+/* -------------------------------------------------------------------------- */
+
+.submenu-bg(@color) when (iscolor(@color)) {
+	.rgba-bg(@color);
+}
+.submenu-bg(@color) {
+	.rgba-bg(@menu-bg-color-bottom);
+}
+
+.logo {
+	.ie8 &, .ie9 &	{
+		img {
+			position: relative;
+			z-index: 3;
+		}
+	}
+}
+
+#menus {
+	position: relative;
+	z-index : 210;
+	float: right;
+}
+
+#main-menu .menu {
+	text-align: left;
+	position  : relative;
+
+	.menu-item.has-submenu {
+		> a {
+			position: relative;
+			padding-right: @menuitem-padding-x*2;
+
+			&:after {
+				content: icon(theme-angle-bottom);
+				font-family: theme;
+				font-size  : 8px;
+				line-height: 1;
+				right      : @menuitem-padding-x/2;
+				position   : absolute;
+				opacity    : 0.7;
+				padding    : 0;
+				vertical-align: top;
+				top        : 50%;
+				margin-top : -2px;
+				text-decoration: none !important;
+				//background: orange;
+				.ie9 &, .ie8 & { /* cut the underline! */
+					height: 74%;
+					overflow:hidden;
+				}
+			}
+		}
+	}
+
+	/* Any menu-item */
+	.menu-item {
+		padding   : 0;
+		margin    : 0;
+		display   : block;
+		position  : relative;
+		list-style: none;
+
+		&:first-child {
+			border-top: none;
+		}
+
+		a {
+			display : block;
+			padding : @menuitem-padding-y @menuitem-padding-x;
+			text-decoration: none;
+
+			strong {
+				font-weight: normal;
+			}
+		}
+	}
+
+	/* Any sub-menu */
+	.sub-menu {
+		top        : 0;
+		left       : 100%;
+		margin     : 0 auto auto 0;
+		width      : auto;
+		min-width  : 100%;
+		position   : absolute;
+		display    : none;
+		white-space: nowrap;
+		z-index    : 200;
+		.box-shadow(~"-2px 2px 2px -1px rgba(0, 0, 0, 0.2), 2px 2px 2px -1px rgba(0, 0, 0, 0.2)");
+	}
+
+	/* Show submenus on hover */
+	.menu-item:hover {
+		> .sub-menu {
+			html.no-touch &,
+			body.responsive-layout & {
+				display: block;
+			}
+		}
+	}
+
+	/* LEVEL 1 ============================================================== */
+	> .menu-item {
+		float : left;
+		border-top: none;
+		margin-right: 5px;
+
+		> a {
+			border-bottom: 5px solid transparent;
+			line-height: 33px !important;
+			color: @menu-level0-color;
+		}
+
+		&.current_page_parent,
+		&.current-menu-parent ,
+		&.current-menu-item,
+		&.current_page_item,
+		&.current-menu-ancestor,
+		&.current-menu-ancestor,
+		&.current_page_ancestor,
+		&:hover {
+			> a {
+				text-decoration    : none;
+				border-bottom-color: @accent-color-1;
+				background-color   :transparent;
+				color              : @menu-level0-hover-color !important;
+
+				&:after {
+					opacity: 1;
+				}
+			}
+		}
+
+		/* LEVEL 2 ========================================================== */
+		> .sub-menu {
+			top       : 100%;
+			left      : 0;
+			margin    : 0 auto auto -1px;
+			.border-radius(3px 3px 0 0);
+
+			.menu-item {
+
+				> a {
+					background   : @menu-level1-bg;
+					color        : @menu-level1-color;
+					border-top   : 1px solid lighten(@menu-level1-bg, 2%);
+					border-bottom: 1px solid darken (@menu-level1-bg, 14%);
+				}
+
+				&.has-submenu > a {
+					padding-right: @menuitem-padding-x*3;
+
+					&:after {
+						content: icon(theme-angle-right);
+						right: @menuitem-padding-x;
+						.readable-color(@menu-level1-bg, 10%);
+					}
+				}
+
+				&.current_page_parent,
+				&.current-menu-parent ,
+				&.current-menu-item,
+				&.current_page_item,
+				&.current-menu-ancestor,
+				&.current-menu-ancestor,
+				&.current_page_ancestor,
+				&:hover {
+					> a {
+						text-decoration    : none;
+						background-color   : @menu-level1-hover-bg;
+						color              : @menu-level1-hover-color !important;
+						border-top-color   : lighten(@menu-level1-hover-bg, 10%) !important;
+						border-bottom-color: darken (@menu-level1-hover-bg, 2%) !important;
+
+						&:after {
+							text-decoration: none !important;
+							color: @accent-color-1;
+						}
+					}
+				}
+
+				/* LEVEL 3+ ================================================= */
+				.sub-menu .menu-item {
+
+					> a {
+						background-color   : @menu-level2-bg;
+						color              : @menu-level2-color;
+						border-top-color   : lighten(@menu-level2-bg, 10%) !important;
+						border-bottom-color: darken (@menu-level2-bg, 2%) !important;
+
+						&:after {
+							.readable-color(@menu-level2-bg, 70, 30%);
+						}
+					}
+
+					&.current_page_parent,
+					&.current-menu-parent ,
+					&.current-menu-item,
+					&.current_page_item,
+					&.current-menu-ancestor,
+					&.current-menu-ancestor,
+					&.current_page_ancestor,
+					&:hover {
+						> a {
+							text-decoration    : none;
+							background         : @menu-level2-hover-bg;
+							color              : @menu-level2-hover-color !important;
+							border-top-color   : lighten(@menu-level2-hover-bg, 8%) !important;
+							border-bottom-color: darken (@menu-level2-hover-bg, 2%) !important;
+
+							&:after {
+								text-decoration: none !important;
+								color: @accent-color-1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+/* -----------------------------------------
+	Main Header / Meta Navigation
+----------------------------------------- */
+#top-nav {
+	color: @css_tophead_color;
+	white-space: nowrap;
+	padding: 10px 0;
+	a {
+		color: @css_tophead_link_color;
+		&:hover {
+			color: @css_tophead_link_hover_color !important;
+		}
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a {
+		color: @css_tophead_current_link_color;
+	}
+
+	ul > li.current_page_item > a,
+	ul > li.current_page_item > ul > li > a:hover,
+	ul > li.current-menu-parent > a,
+	ul > li.current-menu-ancestor > a {
+		color: @css_tophead_current_link_color;
+		background-color: transparent !important;
+	}
+
+	.menu,
+	.menu li,
+	.menu li a {
+		margin: 0px;
+		font-size: 11px;
+		padding: 0;
+		border-radius: 0;
+		line-height: 1.6em;
+		background: transparent !important;
+		border: none !important;
+		float: left;
+		vertical-align: middle;
+	}
+
+	.menu li a {
+		padding: 0 @menuitem-padding-x;
+		display: block;
+	}
+
+	.menu > li {
+		float: left;
+		clear: none;
+
+		a {
+			border-left : 1px solid darken(@header-background-color, 10%) !important;
+			border-right: 1px solid darken(@header-background-color, 5%) !important;
+
+			// For those that support rgba
+			border-left-color: rgba(0, 0, 0, 0.2) !important;
+			border-right-color: rgba(0, 0, 0, 0.1) !important;
+		}
+
+		&:first-child > a {
+			border-left : none !important;
+			padding-left: 0;
+		}
+
+		&:last-child > a {
+			border-right : none !important;
+			padding-right: 0;
+		}
+		&.last > a {
+			border-right : none !important;
+			padding-right: 0;
+		}
+	}
+
+	.sub-menu  {
+		display: inline-block;
+	}
+}
+
+#main-menu {
+	select {
+		padding: 8px;
+		margin-bottom: @element-padding;
+	}
+
+	.menu {
+		/*   main menu  ----------------------------------------------- */
+		> .menu-item > a,
+		> .menu-item > a:visited {
+			font-size: @menu-font-size;
+			line-height: @menu-font-lheight;
+			font-weight : @menu-font-weight;
+			font-family: @menu-font-face;
+			color: @menu-font-color;
+		}
+
+		.sub-menu .menu-item,
+		.sub-menu .menu-item a {
+			font-size: @menu-font-size * 0.8;
+			line-height: normal;
+			font-weight : @menu-font-weight;
+			font-family: @menu-font-face;
+		}
+
+		.sub-menu .menu-item:after {
+			line-height: @menu-font-size * 0.8 !important;
+		}
+
+		.sub-menu a {
+			color: @css_submenu_color;
+		}
+
+		/* Menu items :hover ------------------------------------------ */
+
+		> .menu-item:hover > a,
+		> .menu-item > a:hover,
+		> .current_page_item > a,
+		> .current-menu-item > a,
+		> .current_page_ancestor > a,
+		> .current-menu-ancestor > a {
+			color: @css_menu_hover_color !important;
+		}
+	}
+}

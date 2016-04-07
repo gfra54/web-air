@@ -1,0 +1,130 @@
+.slogan-gen(@bgcolor:#DDD) when (iscolor(@bgcolor)) {
+	background-color:@bgcolor;
+	border-color: darken(@bgcolor, 15%);
+	.slogan-content {	
+		&, p {
+			.readable-color(@bgcolor);
+		}
+	}
+}
+
+.slogan {
+    
+	@btn-height: 18px;
+	@btn-pad-y : 8px;
+	
+	position     : relative;
+    padding      : @element-padding @content-padding;
+	
+	//display : table;
+	//width   : 100%;
+	//border-width: 1px 0;
+	//border-style: dotted none;
+	//border-color: darken(@default-line-color, 20%);
+	
+	em {
+		font-size: 12px;
+		line-height: 0.8em;
+	}
+	
+	.title {
+		font-size: 24px;
+		margin-bottom: 18px;
+	}
+	
+	.description {
+		font-size: 16px !important;
+		line-height: 1.4em !important;
+		font-weight: normal;
+	}
+	
+	h3 {
+		line-height: 1;
+	}
+	
+	&.accent1 {
+		.slogan-gen(@accent-color-1);
+
+		.button {
+			outline: 1px solid rgba(255, 255, 255, 0.3);
+		}
+	}
+	&.accent2 {.slogan-gen(@accent-color-2); }
+	&.accent3 {.slogan-gen(@accent-color-3); }
+	&.accent4 {.slogan-gen(@accent-color-4); }
+	&.accent5 {.slogan-gen(@accent-color-5); }
+	&.accent6 {.slogan-gen(@accent-color-6); }
+	&.accent7 {.slogan-gen(@accent-color-7); }
+	&.accent8 {.slogan-gen(@accent-color-8); }
+	
+	.slogan-content,
+	.button-wrp {
+		vertical-align: middle;
+	}
+
+	&.has-button .slogan-content,
+	.button-wrp {
+		display: table-cell;
+	}
+
+	.button-wrp {
+		padding-left: @content-padding;
+		text-align: center;
+	}
+	
+	.slogan-content {
+		width: 100%;
+	}
+	
+	.button-wrp .button {
+		border: none;
+		font-size: @btn-height !important;
+		line-height: 1 !important;
+		padding-top: @btn-pad-y !important;
+		padding-bottom: @btn-pad-y !important;
+		margin: auto !important;
+		vertical-align: middle;
+		white-space: nowrap;
+	}
+	
+	body.full & {
+		&.fullwidth {
+			margin-left  : -2000px;
+			margin-right : -2000px;
+			padding-left :  2000px;
+			padding-right:  2000px;
+		}
+
+		&.boxed {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+}
+
+body.boxed .page-content {
+	> .slogan {
+		margin-left  : -@content-padding;
+		margin-right : -@content-padding;
+	}
+
+	> .row.has-nomargin-slogan {
+		margin-left  : -@content-padding;
+		margin-right : -@content-padding;
+
+		.slogan {
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+		}
+	}
+
+	> .row > .nomargin {
+		&.first > .slogan {
+			margin-left  : -@content-padding;
+		}
+
+		&.last > .slogan {
+			margin-right : -@content-padding;
+		}
+	}
+}

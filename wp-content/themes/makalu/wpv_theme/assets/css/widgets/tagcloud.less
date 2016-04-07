@@ -1,0 +1,33 @@
+.tagcloud {
+	padding-top: @small-padding / 2;
+	
+	a {
+		padding: 3px 8px 3px 23px;
+		margin: 0 .15em .25em 0;
+		display: inline-block;
+		border-radius: 1em;
+		font-size: 1em !important;
+		position: relative;
+		text-transform: lowercase;
+		overflow: hidden;
+		background: @accent-color-5;
+		.readable-color(@accent-color-5);
+		.readable-border(@accent-color-5);
+	
+		&:after {
+			display: block;
+			content: icon(theme-tag1);
+			position: absolute;
+			left: 4px;
+			top: -3px;
+			font-size: 22px;
+			font-family: 'theme';
+			.readable-color(@accent-color-5);
+		}
+		
+		&:hover {
+			border-bottom-width: 1px !important;
+			text-decoration: underline;
+		}
+	}
+}

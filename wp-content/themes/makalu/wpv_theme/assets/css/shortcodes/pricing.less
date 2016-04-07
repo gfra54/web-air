@@ -1,0 +1,144 @@
+@value-box-height   : 150px;
+@pricing-background : @accent-color-7;
+@valuebox-background: @accent-color-2;
+
+.row.has-price {
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.price-wrapper {
+	background: @pricing-background;
+	.box-shadow(~"0 2px 2px 0 rgba(100, 100, 100, 0.40)");
+
+	.price-title {
+		padding: 8.5px 17px;
+		font-family: @h3-face;
+		text-align: center;
+		font-weight: bold;
+		font-size: 17px;
+		font-style: italic;
+		line-height: 1;
+		margin: 0;
+		color: @accent-color-2;
+	}
+
+	.price {
+		.content-box {
+			padding: 7px 20px 0;
+			.readable-color(@pricing-background);
+
+			ul {
+				list-style: none;
+				margin: 0;
+
+				li {
+					text-align: center;
+					line-height: 1em;
+					border-bottom: 1px dotted;
+					padding: 10px 0;
+					.readable-border(@pricing-background);
+				}
+			}
+		}
+
+		.meta-box {
+			padding: 20px 10px;
+			text-align: center;
+
+			.description {
+				padding: 0px;
+			}
+
+			.button {
+				margin: 15px auto 0;
+				padding: 8px 20px;
+				display: inline-block;
+				.button-gen(@accent-color-1);
+
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+	.value-box {
+		text-align : center;
+		cursor     : default;
+		height     : @value-box-height;
+		line-height: @value-box-height;
+		margin     : 0 0 0 1px;
+		background : @valuebox-background;
+		.readable-color(@valuebox-background, 70, 70%);
+
+		.value-box-content {
+			display: inline-block;
+			line-height: 1;
+			vertical-align: middle;
+		}
+
+		.value {
+			font-family   : @h1-face;
+			font-size     : 50px;
+			line-height   : 38px;
+			vertical-align: top;
+			position      : relative;
+			display       : inline-block;
+			font-weight   : bold;
+		}
+
+		.meta {
+			display    : block;
+			font-size  : 13px;
+			font-size  : 18px;
+			line-height: 18px;
+			font-family: @h1-face;
+			margin     : 2px 4px 0 auto;
+			.readable-color(@valuebox-background, 70, 35%);
+		}
+	}
+
+	&.featured {
+
+		margin: -10px 0;
+
+		.price-title {
+			padding: 22px 17px;
+			position: relative;
+
+			&:after {
+				top        : -1px;
+				color      : @accent-color-2;
+				content    : icon(theme-tag1);
+				font-family: theme;
+				font-size  : 21px;
+				font-style : normal;
+				left       : 10px;
+				position   : absolute;
+				z-index    : 1;
+				line-height: normal;
+			}
+		}
+
+		.value-box {
+			background: @accent-color-1;
+			.readable-color(@accent-color-1, 70, 70%);
+		}
+
+		.value {
+			font-size : 70px;
+			line-height: 48px;
+			margin-top: -10px;
+		}
+
+		.meta {
+			.readable-color(@accent-color-1, 70, 70%);
+		}
+
+		.meta-box {
+			padding: 25px 10px;
+		}
+	}
+}

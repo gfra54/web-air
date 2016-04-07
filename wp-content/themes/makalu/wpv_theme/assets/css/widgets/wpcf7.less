@@ -1,0 +1,118 @@
+div.wpcf7-response-output, 
+div.wpcf7-validation-errors {
+	margin: 1em 0 0 !important;
+}
+
+.wpcf7-not-valid {
+	border-color: #D94729;
+}
+
+span.wpcf7-not-valid-tip {
+	display: none;
+}
+
+div.wpcf7 {
+	
+	.wpcf7-form {
+		display: block;
+		margin: 0;
+		//.readable-color(@accent-color-6);
+	}
+	
+	.wpcf7-not-valid-tip {
+		display: none !important;
+	}
+}
+
+#footer-sidebars {
+	
+	.wpcf7 {
+		
+		.wpcf7-form {
+			
+			> p {
+				display: table;
+				height: 100%;
+				//width: 100%;
+				margin: 0 !important;
+				
+				.cell-wrapper {
+					display: table-cell;
+					vertical-align: middle;
+				}
+				
+				.wpcf7-form-control-wrap {
+					position: relative;
+					display : inline-block;
+					width: 100%;
+					//margin-right: 10px;
+					
+					.ajax-loader {
+						display: none;
+					}
+					
+					&.submit {
+						margin-right: 0;
+						background  : @accent-color-8;
+						color       : transparent !important;
+						cursor      : pointer;
+						
+						&:before {
+							content    : icon(theme-mail);
+							color      : @accent-color-1;
+							display    : block;
+							font-family: theme;
+							font-size  : 16px;
+							height     : 30px;
+							left       : 50%;
+							line-height: 30px;
+							margin-left: -15px;
+							margin-top : -15px;
+							position   : absolute;
+							top        : 50%;
+							width      : 30px;
+							text-align : center;
+						}
+					}
+					
+					input { 
+						margin : 0;
+						padding: 6px 10px;
+						height : 29px;
+						border : 1px solid @accent-color-6 - #202020;
+						.border-box();
+						.border-radius(2px);
+						.box-shadow(0 2px 1px -1px rgba(255, 255, 255, 0.6));
+						color: darken(@accent-color-6, 50%);
+						
+						&[type="submit"],
+						&[type="button"] {
+							color: transparent !important;
+							background: transparent !important;
+							
+							.ie8 & {
+								filter: none !important;
+							}
+						}
+					}
+					
+					.wpcf7-not-valid-tip {
+						left: 0;
+						top: 100%;
+						width: auto;
+						min-width: 100%;
+						padding: 3px 6px;
+						.border-box();
+						.box-shadow(0 2px 6px 2px rgba(0, 0, 0, 0.2));
+						color: darken(@accent-color-6, 50%);
+					}
+				}
+			}
+			
+			div.wpcf7-response-output, 
+			div.wpcf7-validation-errors {
+				color: #840;
+			}
+		}
+	}
+}

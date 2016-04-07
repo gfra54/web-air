@@ -1,0 +1,96 @@
+.wpv_posts {
+	.ui-tabs-nav {
+		margin-top: 0;
+		padding-top: 5px;
+		
+		li {
+			&:hover,
+			&.ui-state-active, 
+			&.ui-state-selected {
+				.icon {
+					color: @accent-color-1;
+				}
+			}
+
+			a .icon {
+				color: @accent-color-2;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.posts_list {
+	padding: 0;
+	
+	li {
+		padding: 0;
+		
+		> div.clearfix {
+			border-bottom : 1px solid @default-line-color;
+			padding: 10px 0 9px;
+		}
+		
+		&:first-child > div.clearfix {
+			padding: 0 0 9px;
+		}
+		
+		&:last-child > div.clearfix {
+			padding: 10px 0;
+			border-bottom: none;
+		}
+		
+		&.last > div.clearfix {
+			padding: 10px 0;
+			border-bottom: none;
+		}
+		
+		.thumbnail {
+			display: block;
+			background: #DDD;
+			position: relative;
+			border  : 1px solid @default-line-color;
+			border-color: rgba(0, 0, 0, 0.15);
+			background-clip: border-box;
+			
+			img {
+				width: 100%;
+				height: auto;
+			}
+			
+			&:before,
+			&:after {
+				position: absolute;
+				z-index : 1;
+				border  : 1px solid @default-line-color;
+				top     : 100%;
+				content : "";
+				height  : 1px;
+			}
+			&:before {
+				left  : 1px;
+				right : 1px;
+				margin-top: 2px;
+			}
+			&:after {
+				left  : 0;
+				right : 0;
+			}
+		}
+	}
+	
+	.title {
+		padding: @small-padding / 2 0 0;
+		margin: 0;
+	}
+	
+	li .sep {
+		display: none;
+	}
+
+	.date {
+		text-transform: uppercase;
+		.wpv-font(additional-font-1-);
+		color: @additional-font-1-color;
+	}
+}

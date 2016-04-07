@@ -1,0 +1,1 @@
+php utils/plessc -w wpv_theme/assets/css/all.less cache/all.css

@@ -1,0 +1,240 @@
+
+/* -------------------------------------------------------------------------- */
+/*                              Backgrounds                                   */
+/* -------------------------------------------------------------------------- */
+
+#main {
+	background: #ffffff;
+	background-color: rgba(255, 255, 255, 1);
+ 
+}
+.ie8 #main {
+			zoom: 1;
+		background: none !important;
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffffff, endColorstr=#ffffffff)";
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffffff, endColorstr=#ffffffff);
+	}
+
+/* ------------------------------------------------------
+	Header Sliders
+------------------------------------------------------ */
+
+
+#header-slider-thumbs .slider-navbar .slider-thumb-scroller .slider-thumb-wrapper .bg-thumbnail.html {
+	background-image: url('http://makalu.demo.ltf8.com/wp-content/uploads/2012/07/logo.png') !important;
+}
+
+/*****************************************************************
+						Helper elements and colors
+******************************************************************/
+
+.comment-author,
+.comments li,
+.share-btns,
+.slider-shortcode.style-2,
+.widget-title:after,
+.widget_categories li,
+.widget_archive li,
+.widget_recent_entries li,
+.widget_recent_comments li,
+.widget_meta li,
+.loop-wrapper.news .page-content {
+	border-color: #848484;
+}
+
+.widget_categories li a,
+.widget_archive li a {
+	border-color: #011640 !important;
+}
+
+.wpv_posts [data-single] .icon,
+.single-post-format .icon,
+.post-format-pad .icon {
+	color: #bfa72c;
+}
+
+/* buttons */
+
+
+input[type=button]:hover, input[type=submit]:hover, .slider-shortcode-wrapper .wpv-nav-prev:hover, .slider-shortcode-wrapper .wpv-nav-next:hover, #style-switcher a[name="Reset"]:hover,
+input[type=button]:focus, input[type=submit]:focus, .slider-shortcode-wrapper .wpv-nav-prev:focus, .slider-shortcode-wrapper .wpv-nav-next:focus, #style-switcher a[name="Reset"]:focus,
+input[type=button]:active, input[type=submit]:active, .slider-shortcode-wrapper .wpv-nav-prev:active, .slider-shortcode-wrapper .wpv-nav-next:active, #style-switcher a[name="Reset"]:active {
+	text-decoration: underline;
+}
+
+
+/*--------------------------------------------------------------------------
+	Internet Explorer
+	Fixes requiring full path from html file to the used resources
+--------------------------------------------------------------------------*/
+
+.cboxIE #cboxTopLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderTopLeft.png, sizingMethod='scale');}
+.cboxIE #cboxTopCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderTopCenter.png, sizingMethod='scale');}
+.cboxIE #cboxTopRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderTopRight.png, sizingMethod='scale');}
+.cboxIE #cboxBottomLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderBottomLeft.png, sizingMethod='scale');}
+.cboxIE #cboxBottomCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderBottomCenter.png, sizingMethod='scale');}
+.cboxIE #cboxBottomRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderBottomRight.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderMiddleLeft.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://makalu.vamtam.com/wp-content/themes/makalu/wpv_theme/assets/images/colorbox/internet_explorer/borderMiddleRight.png, sizingMethod='scale');}
+
+
+/* primary font */
+*,
+p,
+.main-container,
+.contact_form input[type="text"], 
+.contact_form input[type="email"], 
+.contact_form textarea {
+		font: normal 12px / 18px Verdana, Geneva, sans-serif;
+}
+
+/* em font */
+.page-header .desc,
+em {
+		font: italic 12px / 18px "Cabin";
+	color: #848484;
+}
+
+	h1, h1 a, h1 a:visited {
+		color: #ffffff;
+	}
+	h1, h1 a {
+			font: bold 36px / 30px "Cabin";
+	}
+	h2, h2 a, h2 a:visited {
+		color: #636363;
+	}
+	h2, h2 a {
+			font: normal 24px / 30px "Cabin";
+	}
+	h3, h3 a, h3 a:visited {
+		color: #bfa72c;
+	}
+	h3, h3 a {
+			font: normal 20px / 22px "Cabin";
+	}
+	h4, h4 a, h4 a:visited {
+		color: #272727;
+	}
+	h4, h4 a {
+			font: normal 20px / 28px "Cabin";
+	}
+	h5, h5 a, h5 a:visited {
+		color: #304978;
+	}
+	h5, h5 a {
+			font: bold italic 16px / 20px "Cabin";
+	}
+	h6, h6 a, h6 a:visited {
+		color: #272727;
+	}
+	h6, h6 a {
+			font: normal 10px / 12px Arial, sans-serif;
+	}
+
+#footer-sidebars,
+#footer-sidebars p {
+		font: normal 11px / 18px Arial, sans-serif;
+	color: #b0bfdc;
+}
+
+#footer-sidebars h4 {
+		font: italic 18px / 20px Arial, sans-serif !important;
+}
+
+#footer-sidebars .wpv_icon_link a .content {
+	font-family: Arial, sans-serif;
+}
+
+#footer-sidebars h4 {
+	color: #95aad2;
+}
+
+.copyrights,
+.copyrights * {
+		font: normal 11px / 14px Arial, sans-serif;
+	color: #717171;
+}
+
+	
+ a,
+ .comments-link a b,
+ .toggle_title,
+ .accordion .tab,
+ .wpv-tabs .ui-tabs-nav a,
+ .woocommerce-tabs .ui-tabs-nav a {
+	color: #304978;
+}
+
+ a:visited {
+	color: #304978;
+}
+
+ a:hover,
+ .more-btn:hover span,
+ .comments-link a:hover b, 
+ .accordion .tab.ui-state-active,
+ .accordion .tab:hover {
+	color: #304978 !important;
+} 
+
+	
+footer.main-footer  a,
+footer.main-footer  .comments-link a b,
+footer.main-footer  .toggle_title,
+footer.main-footer  .accordion .tab,
+footer.main-footer  .wpv-tabs .ui-tabs-nav a,
+footer.main-footer  .woocommerce-tabs .ui-tabs-nav a {
+	color: #fafaf7;
+}
+
+footer.main-footer  a:visited {
+	color: #fafaf7;
+}
+
+footer.main-footer  a:hover,
+footer.main-footer  .more-btn:hover span,
+footer.main-footer  .comments-link a:hover b, 
+footer.main-footer  .accordion .tab.ui-state-active,
+footer.main-footer  .accordion .tab:hover {
+	color: #fafaf7 !important;
+} 
+
+	
+#footer-sidebars  a,
+#footer-sidebars  .comments-link a b,
+#footer-sidebars  .toggle_title,
+#footer-sidebars  .accordion .tab,
+#footer-sidebars  .wpv-tabs .ui-tabs-nav a,
+#footer-sidebars  .woocommerce-tabs .ui-tabs-nav a {
+	color: #fafaf7;
+}
+
+#footer-sidebars  a:visited {
+	color: #fafaf7;
+}
+
+#footer-sidebars  a:hover,
+#footer-sidebars  .more-btn:hover span,
+#footer-sidebars  .comments-link a:hover b, 
+#footer-sidebars  .accordion .tab.ui-state-active,
+#footer-sidebars  .accordion .tab:hover {
+	color: #fafaf7 !important;
+} 
+
+.home.page .meta-header,
+.post-type-archive-product .meta-header,
+.page-id-352 .meta-header,
+.page-id-13 .meta-header,
+.page-id-4 .meta-header,
+.page-id-14 .meta-header,
+.page-id-15 .meta-header, 
+.page-id-16 .meta-header,
+.page-id-17 .meta-header,
+.page-id-18 .meta-header,
+.page-id-12430 .meta-header,
+.page-id-16843 .meta-header,
+.page-id-16887 .meta-header,
+.error404 .meta-header{
+  display: none;
+}

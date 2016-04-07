@@ -1,0 +1,174 @@
+.widget {
+	padding: 0;
+    margin: 0 auto @content-padding;
+	
+	.widget-title {
+		padding: @small-padding / 2;
+		border-bottom: 3px solid @accent-color-1;
+		margin: 0;
+		line-height: 1em !important;
+		white-space: nowrap;
+		word-wrap:break-word;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-align: center;
+		
+		> .icon {
+			margin-right: @small-padding / 2;
+			color: @accent-color-3;
+		}
+	}
+	
+	&:last-child {
+		background: transparent;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		border-bottom: 0;
+	}
+
+	&.last-child {
+		background: transparent;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		border-bottom: 0;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	li {
+		margin: 0;
+		padding: 5px 0;
+		position: relative;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: break-word;
+	}
+}
+
+@import "widgets/multi";
+@import "widgets/icon_and_link";
+@import "widgets/wpcf7";
+@import "widgets/nav_menu";
+@import "widgets/authors";
+@import "widgets/calendar";
+@import "widgets/social";
+@import "widgets/post_formats";
+@import "widgets/posts";
+@import "widgets/flickr";
+@import "widgets/tagcloud";
+@import "widgets/search";
+@import "widgets/contact_info";
+@import "widgets/widget_rss";
+@import "widgets/wpv_advertisement";
+
+/* Widgets in sidebars ------------------------------------------------------ */
+.widget-box {
+	border: 1px solid @default-line-color;
+	padding: 10px;
+	.border-radius(0 0 2px 2px);
+	
+	&:after {
+		content: "";
+		display: block;
+		height : 1px;
+		border-top: 1px solid @default-line-color;
+		margin: 0 -10px;
+		clear : both;
+		position: relative;
+		top: 10px;
+	}
+}
+
+aside.left,
+aside.right,
+#header-sidebars {
+	.widget {
+		margin: 25px 0;
+		padding: 0;
+
+		&:last-child {
+			margin-bottom: 0;
+			margin-top: 50px;
+			position: relative;
+			top: -25px;
+		}
+		
+		.widget-title {
+			background: @accent-color-8;
+			.border-radius(3px 3px 0 0);
+		}
+		
+		.widget-title, .widget-title a {
+			.wpv-font(h5-);
+		}
+		
+		.widget-title, .widget-title a, .widget-title .icon {
+			color: @h5-color !important;
+		}
+		
+		> ul, > div, > h4+form {
+			.widget-box;
+		}
+		
+		.widget-title + ul,
+		.widget-title + div,
+		.widget-title + form {
+			border-top: none;
+		}
+		
+		
+		&.wpv_posts {
+			
+			
+			> .ui-widget-content {
+				border : none;
+				padding: 0;
+				&:after {
+					display: none;
+				}
+			
+				.tagcloud {
+					padding: 0;
+					
+					a {
+						margin: 2px;
+					}
+				}
+				
+				.posts_list {
+					margin: 0 -10px;
+					
+					.thumbnail {
+						margin: 0 10px;
+					}
+					.post_extra_info  {
+						margin: 0 10px;
+					}
+				}
+			}
+			
+			.ui-tabs-nav {
+				border-bottom: none;
+				.border-radius(3px 3px 0 0);
+			}
+
+			.pane {
+				.widget-box;
+			}
+		}
+	}
+}
+
+#header-sidebars .widget {
+	margin-top: 0 !important;
+	top: 0 !important;
+}
+
+/* Widgets in footer -------------------------------------------------------- */
+#footer-sidebars .widget {
+	
+}

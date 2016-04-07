@@ -1,0 +1,37 @@
+blockquote {
+	padding: 10px 20px 10px 50px;
+	background: @accent-color-8;
+	text-align: left;
+	z-index: 1;
+	position: relative;
+	
+	&:after {
+		content: icon(theme-tag1);
+		top: 2px;
+		font-family: theme;
+		font-size: 20px;
+		font-style: normal;
+		left: 20px;
+		position: absolute;
+		z-index: 1;
+		line-height: 1;
+		color: @accent-color-2;
+	}
+	
+	p, & { 
+		margin-bottom: 0; 
+		.wpv-font(em-);
+		.readable-color(@accent-color-8);
+	}
+
+	.cite:before {
+		content: " — ";
+		padding-left: 1em;
+	}
+
+	.cite, .cite a {
+		.wpv-font(h6-);
+		color: @h6-color;
+		font-style: italic;
+	}
+}

@@ -1,0 +1,136 @@
+.button,
+input[type=button], 
+input[type=submit],
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce div.product form.cart .button,
+.woocommerce-page div.product form.cart .button {
+	font-size: 14px;
+	font-weight: normal;
+    line-height: 1em;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+	vertical-align: middle;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	.border-radius(5px);
+	.transition(all .1s);
+
+	.wpv-font-family(h4-);
+}
+
+input[type=button], 
+input[type=submit] {
+	border: none;
+	padding: 0.5em 1em;
+	.button-gen(@accent-color-2);
+}
+
+
+.button,
+a.button,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce div.product form.cart .button,
+.woocommerce-page div.product form.cart .button {
+	padding: .6em .4em;
+    font-size: 14px;
+}
+
+.button,
+a.button,
+.slogan-content .button {
+	&, &.accent2 { .button-gen(@accent-color-2); }
+	&.accent1 { .button-gen(@accent-color-1); }
+	&.accent3 { .button-gen(@accent-color-3); }
+	&.accent4 { .button-gen(@accent-color-4); }
+	&.accent5 { .button-gen(@accent-color-5); }
+	&.accent6 { .button-gen(@accent-color-6); }
+	&.accent7 { .button-gen(@accent-color-7); }
+	&.accent8 { .button-gen(@accent-color-8); }
+}
+
+.button span {
+	display  : inline-block !important;
+	font-size: 1em;
+	line-height: 1.1;
+	padding  : 0 .4em !important;
+	margin   : 0 0;
+	vertical-align: middle !important;
+	
+	&.icon {
+		font-size: 100% !important;
+		line-height: inherit;
+		
+		&.shortcode.inverted-colors {
+			font-size: 100% !important;
+			.box-shadow(~"0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 1px 1px rgba(255, 255, 255, 0.2)");
+			text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+		}
+
+		&:first-child {
+			margin-right: 0 !important;
+		}
+
+		&:last-child {
+			margin-left : 0 !important;
+		}
+	}
+
+}
+
+.button.full {
+    width: auto;
+    float: none;
+    display: block;
+}
+
+.button.lm-btn {
+	padding : @small-padding / 2 @small-padding;
+	border  : 1px solid @default-line-color;
+	border-radius: 0;
+	.wpv-font(h5-); 
+	color: @h5-color !important;
+	background: transparent;
+	.box-shadow(none);
+	text-shadow: none !important;
+	filter: none !important;
+	
+	span {
+		.wpv-font(h5-) !important;
+        color: @h5-color !important;
+        text-shadow: none !important;
+    }
+	
+	span:before {
+		content: icon(theme-angle-bottom);
+		font-family: theme;
+		color: @default-line-color;
+		font-style: normal;
+		padding-right: .6em;
+		font-size: 12px;
+		vertical-align: baseline;
+	}
+	
+	&:hover {
+		@hover-color: @accent-color-7;
+		background: @hover-color;
+		border-color: @hover-color;
+
+		span:before {
+			color: @accent-color-1;
+		}
+	}
+}
+
+.read-more-button.icon-a {
+	&:after {
+		padding-left: .5em;
+		font-size: 8px;
+	}
+}

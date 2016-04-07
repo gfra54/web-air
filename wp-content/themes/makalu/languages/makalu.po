@@ -1,0 +1,4408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Makalu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-20 18:38+0100\n"
+"PO-Revision-Date: 2013-02-20 18:42+0100\n"
+"Last-Translator: Nikolay Yordanov <me@nyordanov.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /var/www/vamtam/wp-content/themes/makalu\n"
+
+#: /var/www/vamtam/wp-content/themes/makalu/author.php:10
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/author.php:36
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:17
+msgid "0"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:17
+msgid "1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:17
+msgid "%"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:18
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:55
+msgid "Comments"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:43
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:46
+#: /var/www/vamtam/wp-content/themes/makalu/single-portfolio-content.php:46
+msgid "Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:54
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:121
+msgid "Read More"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:56
+msgid "Edit"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-inner.php:116
+#: /var/www/vamtam/wp-content/themes/makalu/page.php:47
+msgid "Pages:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-portfolio-content.php:32
+msgid "Date"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/single-portfolio-content.php:39
+msgid "Client"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/header.php:145
+msgid "Show menu"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/header.php:149
+msgid "Skip to content"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/archive.php:7
+msgid "Blog Archives"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/archive.php:10
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/archive.php:12
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/archive.php:14
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/archive.php:16
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/archive.php:18
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/index.php:10
+#, php-format
+msgid "Post format: %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/index.php:11
+msgid "Blog"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/404.php:11
+msgid "Page not found"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/404.php:14
+msgid "Please search in our site"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/404.php:21
+msgid "OR"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/404.php:22
+msgid "Or start from the home page"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/slider-layerslider.php:6
+msgid "You have selected LayerSlider as the header slider engine for this page. However, you haven't selected an appropriate slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/attachment.php:7
+msgid "Attachment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/attachment.php:68
+#, php-format
+msgid "Original size is %s pixels"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/attachment.php:71
+msgid "Link to full-size image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/attachment.php:80
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/search.php:7
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/search.php:33
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/footer.php:42
+msgid "View Map"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/footer.php:42
+msgid "Close"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:20
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:57
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:67
+msgid "Write a comment:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:74
+#, php-format
+msgid "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:81
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:83
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:84
+msgid "Name"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:85
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:86
+msgid "Email"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:87
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:88
+msgid "Website"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:88
+msgid "Your email address will not be published."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/comments.php:90
+msgid "Comment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/searchform.php:3
+#: /var/www/vamtam/wp-content/themes/makalu/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:5
+msgid "Footer Map"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:10
+msgid "How do I enable the footer map?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:11
+msgid "Paste your Google Maps API Key in the General Settings tab in order to use the map. The map is located between the sub footer and footer. If you need more information on how to set up a map click here: Google Maps API key."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:16
+msgid "Enable the Footer Map"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:23
+msgid "Address (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:24
+msgid "Unless you've filled in the Latitude and Longitude options, please enter the address that you want to be shown on the map. If you encounter any errors about the maximum number of address translation requests per page, you should either use the latitude/longitude options or upgrade to the paid Google Maps API."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:30
+msgid "Latitude"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:31
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:38
+msgid "This option is not necessary if an address is set."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:37
+msgid "Longitude"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:44
+msgid "Zoom"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:45
+msgid "Default map zoom level."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:53
+msgid "Marker"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:54
+msgid "Enable an arrow pointing at the address."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:60
+msgid "HTML"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:61
+msgid "HTML code to be shown in a popup above the marker."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:67
+msgid "Popup Marker"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:68
+msgid "Enable to open the popup above the marker by default."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:74
+msgid "Controls (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:75
+#, php-format
+msgid "This option is intended to be used only by advanced users and is not necessary for most use cases. Please refer to the <a href=\"%s\" title=\"Google Maps API documentation\">API documentation</a> for details."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:81
+msgid "Maptype"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:84
+msgid "Default road map"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:85
+msgid "Google Earth satellite"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:86
+msgid "Mixture of normal and satellite"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:87
+msgid "Physical map"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:94
+msgid "Scrollwheel"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:100
+msgid "Color (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:101
+msgid "Defines the overall hue for the map. It is advisable that you avoid gray colors, as they are not well-supported by Google Maps."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/footer-map.php:103
+msgid "Default"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:5
+msgid "General Settings"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:10
+msgid "Custom Logo Picture"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:11
+msgid "Optional way to replace \"heading\" and \"description\" text for your website with an image. Leave blank if none required."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:18
+msgid "Header Text Area"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:19
+msgid "You can place text/HTML or any shortcode in this field. The text will appear in the header on the right hand side."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:26
+msgid "Favicon"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:27
+msgid "Upload your custom \"favicon\" which is visible in browser favourites and tabs. (Must be .png or .ico file - preferably 16px by 16px ). Leave blank if none required."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:34
+msgid "Google Maps API Key"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:35
+msgid "Paste your Google Maps API Key here. If you don't have one, please sign up for a <a href='https://developers.google.com/maps/documentation/javascript/tutorial#api_key'>Google Maps API key</a>."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:42
+msgid "Google Analytics Key"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:43
+msgid "Paste your key here. It should be something like UA-XXXXX-X. We're using the faster asynchronous loader, so you don't need to worry about speed."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:50
+msgid "\"Scroll to Top\" Button"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:51
+msgid "It is found in the bottom right side. It is sole purpose is help the user scroll a long page quickly to the top."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:57
+msgid "Feedback Button"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:58
+msgid "It is found on the right hand side of your website. You can chose from a \"link\" or a slide out form(widget area).The slide out form is configured as a standard widget. You can use the same form you are using for your \"contact us\" page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:62
+msgid "None"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:63
+msgid "Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:64
+msgid "Slide out widget area"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:69
+msgid "Feedback Button Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:70
+msgid "If you have chosen a \"link\" in the option above, place the link of the button here, usually to your contact us page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:76
+msgid "RSS Button"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:77
+msgid "More information on what is RSS and how it works <a href=\"http://codex.wordpress.org/WordPress_Feeds\" title=\"WordPress Feeds\">can be found here</a>."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:83
+msgid "Facebook Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:84
+msgid "If you place a link in this field it will enable a Facebook button on the right hand side of your website. You can forward your users to your Facebook fan page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:90
+msgid "Twitter Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:91
+msgid "If you place a link in this field it will enable a Twitter button on the right hand side of your website. You can forward your users to your Twitter account."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:97
+msgid "YouTube Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:98
+msgid "If you place a link in this field it will enable a YouTube button on the right hand side of your website. You can forward your users to your YouTube videos."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:104
+msgid "Flickr Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:105
+msgid "If you place a link in this field it will enable a Flickr button on the right hand side of your website. You can forward your users to your Flickr collection."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:111
+msgid "LinkedIn Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:112
+msgid "If you place a link in this field it will enable a LinkedIn button on the right hand side of your website. You can forward your users to your LinkedIn account."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:118
+msgid "Footer Phone Area"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:119
+msgid "You can place text/HTML or any shortcode in this field. Leave empty to disable."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:126
+msgid "Footer Phone Area Color"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:127
+msgid "We use accent colors to attach most of the theme's design elements to them. The accent colors are located in styles - global colors/background settings."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:143
+msgid "Text Area in Footer"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:144
+msgid "You can place text/HTML or any shortcode in this field. The text will appear in the  footer of your website."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:151
+msgid "Share Icons"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:152
+msgid "Select the social medias you want enabled and for which parts of the website"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:158
+msgid "Custom JavaScript"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:159
+msgid "If the hundreds of options in the Theme Options Panel are not enough and you need customisation that is outside of the scope of the Theme Option Panel please place your javascript in this field. The contents of this field are placed near the <strong>&lt;/body&gt;</strong> tag, which improves the load times of the page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:167
+msgid "Custom CSS"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/general/general.php:168
+msgid "If the hundreds of options in the Theme Options Panel are not enough and you need customisation that is outside of the scope of the Theme Options Panel please place your CSS in this field."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:5
+msgid "Save/Import Skins"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:11
+msgid "How do I use skins?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:12
+msgid ""
+"You can import one of the theme's skins or create your own.<br>\n"
+"Please not that the folowing options will not be saved and they will be the same for every skin:<br>\n"
+"<br>\n"
+"Custom Logo Picture<br>\n"
+"Header Text Area<br>\n"
+"Favicon<br>\n"
+"Google Maps API Key<br>\n"
+"Google Analytics Key<br>\n"
+"Footer Phone Area<br>\n"
+"Text Area in Footer<br>\n"
+"Share Icons<br>\n"
+"Custom JavaScript<br>\n"
+"Custom CSS<br>\n"
+"Footer Map - all options<br>\n"
+"Custom Sidebars<br>\n"
+"\"View All Posts\" Link<br>\n"
+"\"View All Portfolios\" Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:33
+#, php-format
+msgid "Last Active Skin: %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:38
+msgid "Save Current Skin"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:39
+msgid "If you use the same name as a previously saved skin it will overwrite the latter."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:44
+msgid "Import Saved Skin"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/skins.php:45
+msgid "If you have made changes on the active skin, please save it before activating another skin. Otherwise you will lose these changes."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:5
+msgid "General Typography"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:10
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:11
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:10
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:10
+msgid "Where are these options used?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:11
+msgid ""
+"The options bellow are used for headings, titles and emphasizing text in different parts of the website.<br>\n"
+"Please note that some of the options for styling text are present in header, body and footer tabs as they are specific only to each area - for example, main menu, body general text, footer widget titles, etc.<br>\n"
+"<strong>Some combinations of typography settings are not possible - for example, not all fonts feature a 300 weight. In such cases the browser substitutes the font with its default setting.</strong>\n"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:19
+msgid "Headlines"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:24
+msgid "H1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:34
+msgid "H2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:44
+msgid "H3"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:54
+msgid "H4"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:64
+msgid "H5"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:74
+msgid "H6"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:84
+msgid "Additional Font Styles"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:89
+msgid "Emphasis Font"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:99
+msgid "Style 1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/typography.php:109
+msgid "Style 2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:5
+msgid "Header"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:12
+msgid "The header consist of the area above the body up to the top. It is divided in two main areas - the main menu area and the slider area. You can change the style of these areas using the options below."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:17
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:16
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:16
+msgid "Backgrounds"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:23
+msgid "Header Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:24
+msgid ""
+"If you want to use an image as a background, enabling the cover button will resize and crop the image so that it will always fit the browser window on any resolution.<br>\n"
+"\tIf the color opacity is less than 1 the page background underneath will be visible."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:32
+msgid "Header Slider Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:33
+msgid "If the color opacity is less than 1 the page background underneath will be visible."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:40
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:37
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:37
+msgid "Typography"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:45
+msgid "Site Title"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:46
+#, php-format
+msgid "You can set the website title in <a href=\"%s\" title=\"set website background\">from here</a>. It is alternative to using an image logo."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:57
+msgid "Main Menu"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:58
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:89
+#, php-format
+msgid "Please note that you have to use the WordPress custom menu feature located in <a href=\"%s\" title=\"WordPress menus\">Appearance - Menus</a>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:73
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:83
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:93
+msgid "Text Hover Color:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:78
+msgid "Main Menu Sub-Menus"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:81
+msgid "Background:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:82
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:92
+msgid "Text Normal Color:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:88
+msgid "Top Header Second Menu"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/header.php:94
+msgid "Text Active Color:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:4
+msgid "Global Colors and Backgrounds"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:9
+msgid "Global Backgrounds"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:14
+msgid "Page Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:15
+msgid ""
+"Please note that this option is used only in boxed layout mode.<br>\n"
+"In full width layout mode the page background is covered by the header, slider, body and footer backgrounds respectively. If the color opacity of these areas is 1 or an opaque image is used, the page background won't be visible.<br>\n"
+"If you want to use an image as a background, enabling the cover button will resize and crop the image so that it will always fit the browser window on any resolution.<br>\n"
+"You can override this option on a page by page basis."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:26
+msgid "You can also use some of the preset background patterns we've crafted for you"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:31
+msgid "Pattern 01"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:39
+msgid "Pattern 02"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:47
+msgid "Pattern 03"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:55
+msgid "Pattern 04"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:63
+msgid "Pattern 05"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:71
+msgid "Pattern 06"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:79
+msgid "Pattern 07"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:87
+msgid "Pattern 08"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:95
+msgid "Pattern 09"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:103
+msgid "Pattern 10"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:111
+msgid "Pattern 11"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:119
+msgid "Pattern 12"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:127
+msgid "Pattern 13"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:135
+msgid "Pattern 14"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:143
+msgid "Pattern 15"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:154
+msgid "Global Colors"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:159
+msgid "Accent Colors"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:160
+msgid "Most of the design elements are attached to the accent colors below. You can easily create your own skin by changing these colors."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:163
+msgid "Accent 1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:164
+msgid "Accent 2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:165
+msgid "Accent 3"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:166
+msgid "Accent 4"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:167
+msgid "Accent 5"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:168
+msgid "Accent 6"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:169
+msgid "Accent 7"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/global.php:170
+msgid "Accent 8"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:5
+msgid "Body"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:11
+msgid "The page body is the area between the header and the footer. The page title, the body top widget areas and the sidebars are located here. You can change the style of these areas using the options below."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:21
+msgid "Body Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:22
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:22
+msgid "If you want to use an image as a background, enabling the cover button will resize and crop the image so that it will always fit the browser window on any resolution. If the color opacity  is less than 1 the page background underneath will be visible."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:29
+msgid "Page Title Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:30
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:30
+msgid "If you want to use an image as a background, enabling the cover button will resize and crop the image so that it will always fit the browser window on any resolution."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:42
+msgid "Body Font"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:43
+msgid "This is the general font used in the body and the sidebars. Please note that the styles of the heading fonts are located in the general typography tab."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:53
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:75
+msgid "Links"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:56
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:78
+msgid "Normal:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:57
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:79
+msgid "Visited:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/body.php:58
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:80
+msgid "Hover:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:5
+msgid "Posts"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:11
+msgid "General"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:16
+msgid "Pagination Type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:17
+msgid "Please note that you will need WP-PageNavi plugin installed if you chose \"paged\" style."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:21
+msgid "Paged"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:22
+msgid "Load more button"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:23
+msgid "Infinite scrolling"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:29
+msgid "Show \"Related Portfolios\" in Single Portfolio View"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:30
+msgid "Enabling this option will show more portfolio post from the same category in the single portfolio post."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:37
+msgid "\"View All Posts\" Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:38
+msgid ""
+"In a single blog post view in the top you will find navigation with 3 buttons. The middle gets you to the blog listing view.<br>\n"
+"You can place the link here."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:47
+msgid "\"View All Portfolios\" Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:48
+msgid ""
+"In a single portfolio post view in the top you will find navigation with 3 buttons. The middle gets you to the portfolio listing view.<br>\n"
+"You can place the link here."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:57
+msgid "Images"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:62
+msgid "Crop Images"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:63
+msgid ""
+"If you enable this option you have to set the image height in the option below.<br>\n"
+"This option works for the images of the standard type blog posts in blog listing view and for portfolio and blog posts in a single portfolio/blog post view. The height of the portfolio posts images in the portfolio listing is controlled from the portfolio shortcode."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:71
+msgid "Cropped Image Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:72
+msgid "Please note that cropping doesn't work for the video and image post formats. The height of the portfolio posts images in the portfolio listing is controlled from the portfolio shortcode."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:82
+msgid "Meta"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:86
+msgid "Hide Post Author"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:87
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:94
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:101
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:108
+msgid "Blog post meta info, works for the single blog post view."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:93
+msgid "Show Categories and Tags"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:100
+msgid "Show Post Timestamp"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/posts.php:107
+msgid "Show Comment Count"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:5
+msgid "Footer"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:11
+msgid "The footer is the area below the body down to the bottom of your site. It consist of two main areas - the footer and the sub-footer. You can change the style of these areas using the options below."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:21
+msgid "Widget Areas Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:29
+msgid "Sub-footer Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:42
+msgid "Widget Areas Text"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:43
+msgid "This is the general font used for the footer widgets."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:53
+msgid "Widget Areas Titles"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:54
+msgid "Please note that this option will override the general headings style set in the General Typography\" tab."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:64
+msgid "Sub-footer"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/styles/footer.php:65
+msgid "You can place your text/HTML in the General Settings option page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/sidebars.php:6
+msgid "Manage Custom Sidebars"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/sidebars.php:11
+msgid "How to use"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/sidebars.php:12
+#, php-format
+msgid ""
+"Please note that you have default sidebars for blog posts, portfolio items and pages that are found in <a href='%s' title='Manage widgets'>Appearance/Widgets</a>. There is no point using custom sidebars if you haven't used the default yet.<br>\n"
+"Once you create the custom sidebar, it will appear in <a href='%s' title='Manage widgets'>Appearance/Widgets</a> and you can insert widgets into it."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/sidebars.php:18
+msgid "Current Sidebars"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:10
+msgid "Header Layout"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:11
+msgid ""
+"Below you can set the height of the header and slider areas.<br>\n"
+"You can enable or disable the slider.<br>\n"
+"This will be the default layout for all pages<br>\n"
+"Note: You can override some of the options on a page by page basis: enable/disable header slider."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:19
+msgid "Enable Header Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:20
+msgid "This option only enables the slider. The slider settings are located in \"Header Slider\" menu item. You can override this option on a page-by-page basis."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:26
+msgid "Header Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:27
+msgid "This is the area above the slider."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:36
+msgid "Header Slider Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:37
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:161
+#, php-format
+msgid "This option is only used for the Vamtam Slider. If you'd like to change LayerSlider's height, please <a href=\"%s\" title=\"LayerSlider settings\">click here</a>."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:46
+msgid "Header Slider Height as a Function of the Browser Window Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/header.php:47
+msgid "Works only with full width Vamtam sliders. Set to -1 to disable. Values over 200 are not recommended."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:11
+msgid "Body Layout"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:12
+msgid ""
+"You can enable or disable the title, the body top widget areas and the body sidebar areas.<br>\n"
+"Below you can set the width of the sidebars in the body and the height of the header title area.<br>\n"
+"This will be the default layout for all pages<br>\n"
+"Note: You can override some of the options on a page by page basis: enable/disable the title, body sidebars and body top widget areas."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:20
+msgid "Enable the Page Title"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:21
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:25
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:35
+msgid "You can override this option on a page-by-page basis."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:27
+msgid "Page Title Area Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:28
+msgid "The height of the area where the title is located."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:37
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:38
+msgid "Breadcrumbs is yet another navigation menu  just below the page title."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:44
+msgid "Enable Body Top Widget Areas"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:45
+msgid "This option only enables the widget areas. You can choose the layout using the two options bellow. In appearance - widgets, you can populate the area with widgets. You can override this option on a page-by-page basis."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:51
+msgid "Body Top Widget Area Pre-defined Layouts"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:52
+msgid "The widget areas below are placed just below the page title. You can either choose one of the predefined layouts or configure your own in the \"Advanced\" section bellow."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:57
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:31
+msgid "1/3 | 1/3 | 1/3"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:76
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:50
+msgid "1/4 | 1/4 | 1/4 | 1/4"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:96
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:70
+msgid "1/5 | 1/5 | 1/5 | 1/5 | 1/5"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:118
+msgid "Body Top Widget Areas Advanced Layout Builder"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:119
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:93
+msgid "Please choose the number of widget areas and adjust each widget area's settings. You can adjust the width of each widget area from the six options and place them in one to six rows."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:127
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:128
+msgid ""
+"The sidebars are placed just below the page title.  You can choose one of the predefined layouts.<br>\n"
+"You can override this option on a page-by-page basis."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:135
+msgid "Left Sidebar Width"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:136
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:145
+msgid "The width is percent of the website width."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/body.php:144
+msgid "Right Sidebar Width"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/general.php:10
+msgid "Responsive Layout"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/general.php:11
+msgid "Enabling this option will make the layout respond to the screen resolutions.It is useful mostly on mobile phones."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/general.php:17
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:21
+msgid "Layout Type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/general.php:18
+msgid "You can choose between boxed and full width layout."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/general.php:22
+msgid "Boxed"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/general.php:23
+msgid "Full width"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:12
+msgid "Footer Layout"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:13
+msgid "You can enable or disable the footer widget areas and choose the desired layout. This will be the default layout for all pages."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:18
+msgid "Enable Footer Widget Areas"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:19
+msgid "This option only enables the area. You can set the layout, using the two options below.  In appearance - widgets, you can populate the area with widgets."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:25
+msgid "Footer Widget Area Pre-defined Layouts"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:26
+msgid "The widget areas bellow are placed between the body and the sub-footer.  You can either choose one of the predefined layouts or configure your own in the \"Advanced\" section bellow."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/layout/footer.php:92
+msgid "Footer Widget Areas Advanced Layout Builder"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:16
+msgid "Quick Import"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:22
+msgid "Some essential plugins are missing!"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:23
+#, php-format
+msgid "It is neccessary that you have <a href=\"%s\" title=\"Install\" target=\"_blank\">installed Contact Form 7 and Layer Slider</a> prior to importing the demo content"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:29
+msgid "Content Import"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:30
+msgid "You are advised to use this importer only on new WordPress sites, as in doing so you will end up with quite a lot of example posts, pages, slides and portfolio items."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:31
+msgid "Import Dummy Content"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:38
+msgid "Widget Import"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:39
+msgid "Using this importer will overwrite your current sidebar settings"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:40
+msgid "Import Widgets"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:47
+msgid "Layer Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/import/import.php:48
+msgid "Import Layer Slider Samples"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:6
+msgid "General Slider Settings"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:12
+#, php-format
+msgid ""
+"Please note that the LayerSlider slides cannot be configured from here. If you've selected the \"LayerSlider\" style below, you have to use <a href=\"%s\">this tool</a>.\n"
+"\t\t<br>\n"
+"\t\tYou can override some of the options in this section on a page by page basis: default slider, slider style. Some of them may not work with all slider types."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:19
+msgid "Header Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:24
+msgid "Default Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:34
+msgid "Slider Style"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:42
+msgid "Slider on Mobile Devices"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:43
+msgid ""
+"If you disable this option the slider will not be shown under one of the conditions below:\n"
+"<ul>\n"
+"<li>device width < 800</li>\n"
+"<li>device height < 600</li>\n"
+"<li>iPhone</li>\n"
+"<li>iPod</li>\n"
+"<li>Android</li>\n"
+"<li>BlackBerry</li>\n"
+"<li>Opera Mini</li>\n"
+"<li>IE Mobile</li>\n"
+"<li>Fennec (mobile FF).</li>\n"
+"</ul>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:60
+msgid "Caption Queue"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:61
+msgid "The captions will be animated if you have more than one caption set for a slide."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:67
+msgid "Pause Time"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:74
+msgid "Pause on Hover"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:79
+msgid "Animation Time"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:80
+msgid "This option does not work with multi-image slider types."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:87
+msgid "Autostart"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:91
+msgid "Disable autostart"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:92
+msgid "Left (backwards)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:93
+msgid "Right (forwards)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:98
+msgid "Easing"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:99
+msgid ""
+"Animation easings are most visible with sliding type effects.<br>\n"
+"This option does not work with multi-image slider types."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:116
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:134
+msgid "Slide Resizing Method"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:117
+msgid ""
+"This option does not work with multi-image slider types.<br>\n"
+"None - the images in their real size<br>\n"
+"Resize and crop - It will cover the slider window regardless of the image sizes."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:124
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:142
+msgid "Resize and Crop"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:129
+msgid "Ajax Portfolio Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:135
+msgid ""
+"None - the images in their real size.<br>\n"
+"Resize and crop - It will cover the slider window regardless of the image sizes.<br>\n"
+"Fit - I will fit the image into the slider window keeping the proportions."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/sliders.php:143
+msgid "Fit"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/editor.php:5
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/editor.php:11
+msgid "Vamtam Slider Editor"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/options/sliders/editor.php:12
+msgid "Create a new slider, drag some images, set their captions and you'll have a nice looking slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:9
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:13
+msgid "Slide Icon"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:15
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:19
+msgid "Slide Title"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:25
+msgid "Type 1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:26
+msgid "Type 2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:27
+msgid "Standard"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:33
+msgid "Content"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:42
+msgid "Background Color"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:50
+msgid "Background Image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:58
+msgid "Background Opacity"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:69
+msgid "Big Image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:77
+msgid "Small Image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:85
+msgid "Text Line 1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:93
+msgid "Text Line 2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:101
+msgid "Text Line 3"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:109
+msgid "Button Text"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:116
+msgid "Button Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:124
+msgid "Button Target"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:129
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:63
+msgid "Same window"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:130
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:64
+msgid "New window"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:136
+msgid "Additional Image 1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:144
+msgid "Additional Image 2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:152
+msgid "Class"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:160
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:165
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:39
+msgid "left"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:166
+msgid "center"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:167
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:45
+msgid "right"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:173
+msgid "Vertical Vlignment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:178
+msgid "top"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:179
+msgid "middle"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/sintia.php:180
+msgid "bottom"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:8
+msgid "Captions"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:25
+msgid "Slide Content"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:25
+msgid "First Caption"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:33
+msgid "Second Caption"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:40
+msgid "Third Caption"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:48
+msgid "Slide Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/slideshow.php:57
+msgid "Slide Link Target"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:12
+msgid "Use Global Options"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:13
+msgid "If this option is enabled, some of the local options which have global equivalents will not be taken into account. Hence, if this option is disabled, these local options will overwrite the global settings for this post."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:21
+msgid "Layout and Styles"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:26
+msgid "Page Layout Type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:27
+msgid "The sidebars are placed just below the page title. You can choose one of the predefined layouts."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:34
+msgid "Custom Sidebars"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:35
+msgid "This option correlates with the one above. If you have custom sidebars created, you will enable them by selecting them in the drop-down menu. Otherwise the page default sidebars will be used."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:54
+msgid "Show Body Top Widget Areas"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:55
+msgid "These can be configured from \"Vamtam\" -> \"Layout\" -> \"Body\"."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:63
+msgid "Show Page Title Header"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:70
+msgid "Description"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:71
+msgid "The text will appear next or bellow the title of the page, only if the option above is enabled."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:98
+msgid "Fancy Portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:103
+msgid "Type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:104
+msgid ""
+"If you select any of categories below, the fancy portfolio will be enabled.<br>\n"
+"Full screen type portfolio will slide the portfolio items in full screen mode without showing the text of the items. It is similar to a gallery.<br>\n"
+"Ajax portfolio type will open the portfolio item in the top of the  same listing page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:111
+msgid "Full background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:112
+msgid "Ajax portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:118
+msgid "Categories"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:119
+msgid "If you select any of these categories, the fancy portfolio will be enabled."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:130
+msgid "Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:135
+msgid "Show Slider in Header"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:142
+msgid "Page Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:143
+msgid "In the drop down you will see the sliders that you have created. If you do not see any, you can create one in Vamtam =>Sliders."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:152
+msgid "Page Slider Style"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:160
+msgid "Page Slider Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:171
+msgid "Post Format Settings"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:178
+msgid "Used in the \"quote\", \"link\", \"audio\" and \"video\" formats"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:186
+msgid "Quote Author"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:187
+msgid "Used in the \"quote\" format"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:195
+msgid "Portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:201
+msgid "Portfolio Data Type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:202
+msgid ""
+"Image - uses the featured image (default)<br />\n"
+"\t\t\t\t  Gallery - use the featured image as a title image but show additional images too<br />\n"
+"\t\t\t\t  Video/Link - uses the \"portfolio data url\" setting<br />\n"
+"\t\t\t\t  Document - acts like a normal post<br />\n"
+"\t\t\t\t  HTML - overrides the image with arbitrary HTML when displaying a single portfolio page. Does not work with the ajax portfolio.\n"
+"\t\t\t\t"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:212
+msgid "Image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:213
+msgid "Gallery"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:214
+msgid "Video"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:216
+msgid "Document"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:222
+msgid "Portfolio Data Url"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:230
+msgid "HTML Content Used for the \"HTML\" Portfolio Type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:231
+msgid "Please note that if you are using the AJAX portfolio, some shortcodes may not work as expected in this field."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/metaboxes/general.php:239
+msgid "Logo"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:56
+msgid "Reply"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:57
+msgid "Log in to reply."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:65
+msgid "\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</span>\n"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:73
+msgid "Read more"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:156
+msgid "Pinterest"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:165
+msgid "Twitter"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:174
+msgid "Facebook"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/helpers/template.php:183
+msgid "Google+"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/shortcode_templates/portfolio.php:20
+msgid "Show:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/shortcode_templates/portfolio.php:22
+msgid "All"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_theme/shortcode_templates/team_member.php:28
+#, php-format
+msgid "email %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:132
+msgid "Menu Header"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:133
+msgid "Menu Top"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:174
+msgid "Slides"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:175
+msgid "Slide"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:176
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:223
+msgid "Add New"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:177
+msgid "Add New Slide"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:178
+msgid "Edit Slide"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:179
+msgid "New Slide"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:180
+msgid "View Slide"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:181
+msgid "Search Slides"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:182
+msgid "No slides found"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:183
+msgid "No slides found in Trash"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:199
+msgid "Slideshow Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:200
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:257
+msgid "Search Categories"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:201
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:258
+msgid "Popular Categories"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:202
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:259
+msgid "All Categories"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:205
+msgid "Edit Slideshow Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:206
+msgid "Update Slideshow Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:207
+msgid "Add New Slideshow Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:208
+msgid "New Slideshow Category Name"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:209
+msgid "Separate Slideshow categories with commas"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:210
+msgid "Add or remove Slideshow category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:211
+msgid "Choose from the most used Slideshow categories"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:221
+msgid "Portfolios"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:224
+msgid "Add New Portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:225
+msgid "Edit Portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:226
+msgid "New Portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:227
+msgid "View Portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:228
+msgid "Search Portfolios"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:229
+msgid "No portfolios found"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:230
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:233
+msgid "portfolio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:256
+msgid "Portfolio Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:262
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:263
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:264
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:265
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:266
+msgid "Separate Portfolio category with commas"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:267
+msgid "Add or remove portfolio category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:268
+msgid "Choose from the most used portfolio category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:333
+msgid "Vamtam"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:338
+msgid "Theme options"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:342
+msgid "Layout"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:343
+msgid "Styles"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:344
+msgid "Sliders"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/wpv_framework.php:346
+msgid "Help"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:3
+msgid "Buttons"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:7
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/dropcap.php:17
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/outer_text_divider.php:7
+msgid "Text"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:13
+msgid "Font size"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:21
+msgid "Background"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:37
+msgid "Alignment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:42
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:96
+msgid "Left"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:43
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:97
+msgid "Right"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:44
+msgid "Center"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:55
+msgid "Link Target"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:58
+msgid "Choose one.."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:60
+msgid "Load in a new window"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:61
+msgid "Load in the same frame as it was clicked"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:62
+msgid "Load in the parent frameset"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:63
+msgid "Load in the full body of the window"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:68
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/icon.php:4
+msgid "Icon"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:72
+msgid "style"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:74
+msgid "No icon"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:78
+msgid "color"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:93
+msgid "placement"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:104
+msgid "ID"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:105
+msgid "ID attribute added to the button element."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/button.php:112
+msgid "Class attribute added to the button element."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/pre_code.php:4
+msgid "Pre & Code"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/pre_code.php:19
+msgid "Any HTML code entered here will be displayed as-is, with preserved whitespace."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:7
+msgid "Background color"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:13
+msgid "Background image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:19
+msgid "Background opacity"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:28
+msgid "Big image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:34
+msgid "Small image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:40
+msgid "Text 1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:46
+msgid "Text 2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:52
+msgid "Button text"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:58
+msgid "Button link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:64
+msgid "Button target"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:74
+msgid "Additional image 1"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_1.php:80
+msgid "Additional image 2"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/dropcap.php:3
+msgid "Drop Cap"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/icon.php:8
+msgid "Style"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/icon.php:32
+msgid "Size"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/icon.php:40
+msgid "Invert colors"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/outer_text_divider.php:3
+msgid "Outer text divider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/inline_divider.php:3
+msgid "Divider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/inline_divider.php:8
+msgid "\"Clear floats\" is just a div element with <em>clear:both</em> styles. Although it is safe to say that unless you already know how to use it, you will not need this, you can <a href=\"https://developer.mozilla.org/en-US/docs/CSS/clear\">click here for a more detailed description</a>."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/inline_divider.php:12
+msgid "Divider line (1)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/inline_divider.php:13
+msgid "Divider line (2)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/inline_divider.php:14
+msgid "Divider line (3)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/inline_divider.php:15
+msgid "Clear floats"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/push.php:3
+msgid "Vertical Blank Space"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/push.php:7
+msgid "Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/table.php:3
+msgid "Table"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/table.php:8
+msgid "Please insert a valid HTML table, you can use thead and tfood if you wish"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:7
+msgid "Trigger Source"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:8
+msgid "You can put any HTML in here, except for links. Try putting some text or an image. When someone click on the text/image the lightbox will open."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:14
+msgid "Lightbox Source"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:15
+msgid "Put here a link to what is to be displayed in the lightbox."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:22
+msgid "Title"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:23
+msgid "The title you want to display on the bottom of the lightbox."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:30
+msgid "Group (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:31
+msgid "This allows the user to group any combination of elements together for a gallery."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:37
+msgid "Force Iframe"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/lightbox.php:38
+msgid "If your source is a embeddable video or a site, you will have to enable this option."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/highlight.php:4
+msgid "Highlight"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/highlight.php:12
+msgid "light"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/highlight.php:13
+msgid "dark"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/list.php:4
+msgid "Styled List"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/list.php:15
+msgid "Color"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/list.php:32
+msgid "Please insert a valid HTML unordered list"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/blockquote.php:3
+msgid "Block Quotation"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/blockquote.php:7
+msgid "Cite (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_2.php:40
+msgid "Text 3"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/tooltip.php:7
+msgid "Tooltip content"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/tooltip.php:13
+msgid "Tooltip trigger"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/chart.php:8
+msgid "<a href=\"http://techtracer.com/2007/12/17/the-power-of-google-chart-api/\">Google Chart API Tutorial</a>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_standard.php:28
+msgid "Horizontal alignment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/shortcodes/generator/slide_standard.php:39
+msgid "Vertical alignment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:269
+msgid "Load more"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:397
+msgid "Leave a comment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:397
+msgid "1 Comment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:397
+msgid "% Comments"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:426
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:452
+msgid "(Edit)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:433
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:452
+msgid "Pingback:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:466
+#, php-format
+msgid "%2$s <span class=\"meta-sep\">|</span> by %3$s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:490
+#, php-format
+msgid "Posted in %1$s <span class=\"meta-sep\">|</span> tags %2$s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:492
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:553
+msgid "play"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:554
+msgid "pause"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:555
+msgid "stop"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:556
+msgid "mute"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:557
+msgid "unmute"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:558
+msgid "max volume"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:633
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/template.php:704
+msgid "Read more in our documentation"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/sidebars.php:13
+msgid "Shared Page Widget Area"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/sidebars.php:14
+msgid "Blog Widget Area"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/sidebars.php:15
+msgid "Portfolio Widget Area"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:146
+msgid "Install Required Plugins"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:147
+msgid "Install Plugins"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:148
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:149
+msgid "Something went wrong."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:160
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:471
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:161
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1827
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:162
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:498
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:2039
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:526
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:685
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1072
+msgid "External Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1077
+msgid "Private Repository"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1080
+msgid "Pre-Packaged"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1084
+msgid "WordPress Repository"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1087
+msgid "Required"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1087
+msgid "Recommended"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1090
+msgid "Not Installed"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1092
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1262
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1278
+msgid "Plugin"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1279
+msgid "Source"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1281
+msgid "Status"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1299
+msgid "Install"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1300
+msgid "Activate"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1810
+msgid "Install package not available."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1811
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1812
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1813
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1814
+msgid "Plugin install failed."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1815
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1826
+msgid "Plugin activation failed."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1936
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1937
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1937
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1946
+msgid "Show Details"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1937
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1946
+msgid "Hide Details"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1938
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1939
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1943
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1944
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1945
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1946
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1947
+msgid "All installations have been completed."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/tgm-plugin-activation.php:1948
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/dimox-breadcrumbs.php:6
+msgid "Home"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/dimox-breadcrumbs.php:28
+msgid "Archive by category"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/dimox-breadcrumbs.php:94
+msgid "Search results for"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/dimox-breadcrumbs.php:97
+msgid "Posts tagged"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/dimox-breadcrumbs.php:102
+msgid "Articles posted by"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/dimox-breadcrumbs.php:105
+msgid "Error 404"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/dimox-breadcrumbs.php:115
+msgid "Page"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:9
+msgid "Slide and fade"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:11
+msgid "Sintia"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:12
+msgid "Makalu"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:13
+msgid "LayerSlider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:17
+msgid "Crop"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:18
+msgid "Crop at the top"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:20
+msgid "Stretch"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:33
+msgid "Right to left"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:34
+msgid "Left to right"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:35
+msgid "Bottom to top"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:36
+msgid "Top to bottom"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:37
+msgid "Right to left / snake"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:38
+msgid "Left to right / snake"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:39
+msgid "Bottom to top / snake"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:40
+msgid "Top to bottom / snake"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:41
+msgid "Bottom right to top left"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:42
+msgid "Top left to bottom right"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:43
+msgid "Bottom left to top right"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:44
+msgid "Top right to bottom left"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:45
+msgid "Random"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:660
+msgid "Could not read image size"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/helpers/base.php:665
+msgid "Could not calculate resized image dimensions"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/authors.php:14
+msgid "List of authors and their descriptions"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/authors.php:16
+msgid "Vamtam - Authors"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/authors.php:21
+msgid "Authors"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/icon-link.php:14
+msgid "Displays a list of links preceded by an icon"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/icon-link.php:16
+msgid "Vamtam - Links with icons"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/gmap.php:11
+msgid "Displays a google map."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/gmap.php:13
+msgid "Vamtam - Gmap"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/flickr.php:12
+msgid "Displays photos from Flickr"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/flickr.php:14
+msgid "Vamtam - Flickr"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/flickr.php:19
+msgid "Photos on flickr"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/subpages.php:12
+msgid "Displays a list of SubPages"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/subpages.php:14
+msgid "Vamtam - List subpages"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/twitter.php:12
+msgid "Displays a twitter feed"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/twitter.php:14
+msgid "Vamtam - Twitter"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/twitter.php:19
+msgid "Recent Tweets"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/social.php:33
+msgid "Displays a list of Social Icon icons"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/social.php:35
+msgid "Vamtam - Social Icons"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/posts.php:12
+msgid "Displays a list of posts/comments/tweets"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/posts.php:14
+msgid "Vamtam - Multi widget"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/posts.php:86
+msgid "Popular"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/posts.php:88
+msgid "Newest"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/posts.php:92
+msgid "Tweets"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/posts.php:94
+msgid "Tags"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:9
+msgid "Display contact information."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:11
+msgid "Vamtam - Contact Info"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:14
+msgid "Title:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:15
+msgid "Name:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:16
+msgid "Introduction text:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:17
+msgid "Phone:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:18
+msgid "Cell phone:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:19
+msgid "Email:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/contactinfo.php:20
+msgid "Address:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/post-formats.php:8
+msgid "A list or dropdown of Post Formats"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/post-formats.php:10
+msgid "Vamtam - Post Formats"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/post-formats.php:16
+msgid "Post Formats"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/advertisement.php:14
+msgid "Displays ads"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/advertisement.php:16
+msgid "Vamtam - Advertisement"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:21
+#, php-format
+msgid "about %d seconds ago"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:22
+msgid "about a minute ago"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:23
+#, php-format
+msgid "about %d minutes ago"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:24
+msgid "about an hour ago"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:25
+#, php-format
+msgid "about %d hours ago"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:26
+msgid "about a day ago"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:27
+#, php-format
+msgid "about %d days ago"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-widget.php:28
+msgid "view tweet on twitter"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/subpages-config.php:7
+msgid "Sort by:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/subpages-config.php:9
+msgid "Page order"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/subpages-config.php:10
+msgid "Page title"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/subpages-config.php:11
+msgid "Page ID"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/subpages-config.php:16
+msgid "Exclude:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/subpages-config.php:19
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/flickr-config.php:7
+msgid "Type:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/flickr-config.php:15
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/flickr-config.php:20
+msgid "Number of photo to show:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/flickr-config.php:25
+msgid "Method for display your photos:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/flickr-config.php:27
+msgid "Latest"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/advertisement-config.php:7
+msgid "How many ad spots to display?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/advertisement-config.php:16
+msgid "Note: Please input <strong>full url</strong> <br/> (e.g. <code>http://example.com</code>)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/advertisement-config.php:27
+msgid "Image URL:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/advertisement-config.php:31
+msgid "Link:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-widget.php:45
+msgid "on"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/advertisement-widget.php:13
+msgid "Advertisment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/advertisement-widget.php:14
+msgid "Advertisement"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/post-formats-config.php:7
+msgid "Tooltip:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/authors-config.php:7
+msgid "How many authors to display?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/authors-config.php:24
+msgid "Author:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/authors-config.php:35
+msgid "Author Description (optional):"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:7
+msgid "Display:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:9
+msgid "Popular posts"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:10
+msgid "Recent posts"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:11
+msgid "Recent Comments"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:17
+msgid "Posts / Comments / Tweets"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:20
+msgid "Number of items:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:26
+msgid "Disable Thumbnails?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:30
+msgid "Categories:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:41
+msgid "Usernames (separate with comas):"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:46
+msgid "Query (optional):"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:51
+msgid "Query uses <a href='http://apiwiki.twitter.com/Twitter-Search-API-Method%3A-search' target='_blank'>Twitter's Search API</a>, so you can display any tweets you like."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/posts-config.php:57
+msgid "Taxonomy:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/icon-link-config.php:7
+msgid "How many links to show?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/icon-link-config.php:29
+msgid "URL:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/icon-link-config.php:34
+msgid "Icon:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/contactinfo-config.php:2
+msgid "Icons Color:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/post-formats-widget.php:4
+#, php-format
+msgid "View all %format posts"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/gmap-config.php:9
+msgid "Choose either an address or latitute and logtitude"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/gmap-config.php:13
+msgid "Latitude:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/gmap-config.php:18
+msgid "Longitude:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/gmap-config.php:23
+msgid "Zoom level:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/gmap-config.php:32
+msgid "Content for the marker:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/gmap-config.php:38
+msgid "Auto popup the info?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/gmap-config.php:42
+msgid "Height:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-config.php:12
+msgid "height and width of avatar if displayed (48px max)(optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/twitter-config.php:17
+msgid "How many tweets to display?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:7
+msgid "Icon Alt Title:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:12
+msgid "Icon Package:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:21
+msgid "Icon Hover Animation:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:23
+msgid "Fade"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:24
+msgid "Scale"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:25
+msgid "Bounce"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:26
+msgid "Combo"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:31
+msgid "Enable Social Icon:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:41
+msgid "Note: Please input FULL URL <br/>(e.g. <code>http://example.com</code>)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/widgets/tpl/social-config.php:54
+msgid "How many custom icons to add?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/wpv_admin.php:15
+msgid "Vamtam | General Settings"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/wpv_admin.php:20
+msgid "Vamtam | Layout"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/wpv_admin.php:25
+msgid "Vamtam | Styles"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/wpv_admin.php:30
+msgid "Vamtam | Sliders"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/wpv_admin.php:35
+msgid "Vamtam | Quick Import"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/wpv_admin.php:40
+msgid "Vamtam | help"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/metaboxes/template.php:5
+msgid "Vamtam Templates"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/metaboxes/general.php:5
+msgid "Vamtam Options"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/media-upload.php:21
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/gallery-upload.php:22
+msgid "Delete Permanently"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/media-upload.php:23
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/gallery-upload.php:24
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/config-import.php:13
+msgid "Delete"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/media-upload.php:24
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/gallery-upload.php:25
+#, php-format
+msgid "You are about to delete <strong>%s</strong>."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/media-upload.php:25
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/gallery-upload.php:26
+msgid "Continue"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/media-upload.php:26
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/gallery-upload.php:27
+msgid "Cancel"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/media-upload.php:29
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/gallery-upload.php:30
+msgid "Move to Trash"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/media-upload.php:30
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/gallery-upload.php:31
+msgid "Undo"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/base.php:227
+msgid "The theme must be installed in a directory which is a direct child of wp-content/themes/"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/base.php:231
+#, php-format
+msgid "You must set write permissions (755 or 777) for the cache directory (%s)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/base.php:235
+msgid "It seems that your server doesn't have the GD graphic library installed. Please contact your hosting provider, they should be able to assist you with this issue"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/base.php:244
+msgid "There were some some errors with your Vamtam theme setup:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/shortcodes/render.php:4
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/shortcodes/render.php:54
+msgid "Send Shortcode to Editor »"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/shortcodes/render.php:53
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/shortcodes/render.php:58
+msgid "Preview"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slider-editor.php:8
+msgid "New HTML slide"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slider-editor.php:9
+msgid "New image slide"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slider-editor.php:10
+msgid "Delete slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slider-editor.php:11
+msgid "Are you sure you want to delete this slider? This will also permanently delete its slides"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slider-editor.php:12
+msgid "Do you want to delete this slide permanently?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slider-editor.php:13
+msgid "Please add some slides"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slider-editor.php:28
+msgid "Add slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/toggle.php:23
+msgid "On"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/toggle.php:27
+msgid "Off"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/font.php:46
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/font.php:55
+msgid "font size"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/font.php:66
+msgid "line height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/font.php:75
+msgid "font"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/config-import.php:10
+msgid "Available skins"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/templates.php:12
+msgid "Save"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/templates.php:13
+msgid "If you use the same name as a previously saved template it will overwrite the latter."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/templates.php:18
+msgid "Loading..."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/templates.php:21
+msgid "Load"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/slide.php:13
+msgid "Slide type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/portfolio_gallery.php:21
+msgid "Thumbnail"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/portfolio_gallery.php:24
+msgid "Actions"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/horizontal_blocks.php:54
+msgid "last?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/horizontal_blocks.php:57
+msgid "empty?"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/title.php:7
+msgid "Loading"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:3
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:72
+msgid "Color:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:4
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:77
+msgid "Opacity:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:5
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:86
+msgid "Image / pattern:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:6
+msgid "Repeat:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:7
+msgid "Attachment:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:8
+msgid "Position:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:9
+msgid "Size:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:38
+msgid "No repeat"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:39
+msgid "Repeat horizontally"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:40
+msgid "Repeat vertically"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:41
+msgid "Repeat both"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:44
+msgid "scroll"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:45
+msgid "fixed"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:48
+msgid "left center"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:49
+msgid "left top"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:50
+msgid "left bottom"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:51
+msgid "center center"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:52
+msgid "center top"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:53
+msgid "center bottom"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:54
+msgid "right center"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:55
+msgid "right top"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:56
+msgid "right bottom"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/background.php:106
+msgid "Cover:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/upload-basic.php:5
+msgid "Insert"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/upload-basic.php:6
+msgid "Remove"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/save.php:4
+msgid "Delete options"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/save.php:4
+msgid "Save Changes"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:23
+msgid "Enabled"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:24
+msgid "Disabled"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:43
+msgid "Left body sidebar"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:57
+msgid "Right body sidebar"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:66
+msgid "Footer widget areas"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:71
+msgid "Subfooter"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:78
+msgid "Header height:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:85
+msgid "Slider height:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout-responsive.php:92
+msgid "Body top widget areas"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/social.php:7
+msgid "Post"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/social.php:10
+msgid "Lightbox"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/info.php:11
+msgid "Open"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/editor.php:23
+msgid "Visual"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout.php:50
+msgid "Site width:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/general-layout.php:55
+msgid "Body content width:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/helpers/config_generator/sidebar_management.php:16
+msgid "Delete sidebar"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/slider-editor.php:98
+msgid "Save changes"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/skin-management.php:51
+msgid "The skin has been imported successfully. Have fun!"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/skin-management.php:61
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/skin-management.php:94
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/base.php:99
+msgid "Success."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/skin-management.php:63
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/base.php:114
+msgid "Cannot delete file."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/skin-management.php:96
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/base.php:101
+msgid "Cannot save file."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/get_shortcodes.php:6
+msgid "Shortcodes"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/base.php:71
+msgid "Available templates"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/base.php:112
+msgid "Deleted."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/ajax/base.php:143
+msgid "Saved"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/types/slideshow.php:10
+msgid "Excerpt"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/types/slideshow.php:12
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/types/portfolio.php:12
+msgid "Author"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/types/slideshow.php:64
+msgid "Auto draft"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/assets/js/shortcodes_tinymce.js.php:30
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/admin/assets/js/shortcodes_tinymce.js.php:47
+msgid "Vamtam shortcodes"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/dependencies.php:48
+msgid "Required Plugins"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/dependencies.php:50
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/dependencies.php:63
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/widget-importer/importer.php:94
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:146
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:155
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:240
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:248
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/widget-importer/importer.php:95
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:147
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/widget-importer/importer.php:107
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:195
+msgid "All done."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/widget-importer/importer.php:107
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:195
+msgid "Have fun!"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/widget-importer/importer.php:126
+msgid "Import Vamtam Widgets"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/widget-importer/importer.php:147
+msgid "Import widgets from Vamtam themes, not to be used as a stand-alone product."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/parsers.php:110
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:196
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:256
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:281
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:307
+msgid "Assign Authors"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:308
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:310
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:320
+msgid "Import Attachments"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:323
+msgid "Download and import file attachments"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:340
+msgid "Import author:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:351
+msgid "or create new user with login name:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:354
+msgid "as a new user:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:362
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:364
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:365
+msgid "- Select -"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:413
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:462
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:500
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:544
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:670
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:566
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:587
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:642
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:786
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:793
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:856
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:869
+msgid "Invalid file type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:913
+msgid "Remote server did not respond"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:919
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:926
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:931
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:937
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:1036
+msgid "Import WordPress"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:1043
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:1058
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:1059
+msgid "Choose a WXR file to upload, then click Upload file and import."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/wpv_common/plugins/importer/importer.php:1131
+#, php-format
+msgid "Import <strong>posts, pages, comments, custom fields, categories, tags and sidebars</strong> from a %s dummy content file."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/config-generator.php:33
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/config-generator.php:41
+msgid "Save Element"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:49
+msgid "Column"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:84
+msgid "Increase width"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:84
+msgid "Decrease width"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:87
+msgid "Insert element"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:88
+msgid "Clone"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:89
+msgid "Edit shortcode properties"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:90
+msgid "Remove shortcode"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/ajax.php:91
+msgid "Click to toggle"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/editor.php:102
+msgid "Visual Editor"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/editor.php:171
+msgid "columns"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/editor-tpl.php:8
+msgid "Please note that you can change the width of most shortcodes using the +/- buttons found on their left side. You do not need to use the column shortcode unless the layout is very complex. The Vamtam drag &amp; drop editor is tightly integrated with the standard Visual and Text editors and you can switch to Visual or Text at any time without losing any changes."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/editor-tpl.php:16
+msgid "Add New Element"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/editor-tpl.php:20
+msgid "Click on an element from the menu and drag it to the content editor"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/text_divider.php:3
+msgid "Text divider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/text_divider.php:22
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:41
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:28
+msgid "Click edit to change this text"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/text_divider.php:27
+msgid "\"More Info\" Link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/text_divider.php:30
+msgid "No link"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:3
+msgid "Message box"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:8
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:8
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:12
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/accordion.php:12
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:8
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:8
+msgid "Column Title"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:9
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:9
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:13
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/accordion.php:13
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:9
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:9
+msgid "The column title is placed just above the element."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:15
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:15
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:19
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/accordion.php:19
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:15
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:15
+msgid "Column Title Type"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:22
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:22
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:26
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/accordion.php:26
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:22
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:22
+msgid "No Divider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:31
+msgid "Info"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:32
+msgid "Success"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:33
+msgid "Error"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/message_box.php:34
+msgid "Notice"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:30
+msgid "Video URL"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:31
+msgid "Enter the url to your video. We support youtube, vimeo, dailymotion, as well as MP4, OGG, WebM and SWF files."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:38
+msgid "Maximum Width"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:46
+msgid "Maximum Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:54
+msgid "Start Automatically"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:55
+msgid "Select this if you want the video to start playing as soon as the page is loaded."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:62
+msgid "HTML5-specific"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:66
+msgid "Poster Image"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:67
+msgid "The poster image is placeholder for the video before it plays. It's also used as the image fallback for devices that don't support HTML5 Video or Flash."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:74
+msgid "Preload"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:75
+msgid "Select this if you want the video to start downloading as soon the user loads the page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:82
+msgid "Flash-specific"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:86
+msgid "Flashvars (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/video.php:87
+msgid "Variables to pass to Flash Player."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:3
+msgid "Expandable services"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:36
+msgid "Closed state"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:43
+msgid "Expanded state"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:60
+msgid "Transparent"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services_expandable.php:73
+msgid "A class name added to the wrapper element of the shortcode"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/accordion.php:3
+msgid "Accordion"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/accordion.php:30
+msgid "Allow All Panes to be Closed"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/accordion.php:31
+msgid "If enabled, the accordion will load with collapsed panes. Clicking on the title of the currently active pane will close it. Clicking on the title of an inactive pane will change the active pane."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:3
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:33
+msgid "Price"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:39
+msgid "Currency"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:45
+msgid "Duration"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:51
+msgid "Summary"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/price.php:76
+msgid "Featured"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:26
+msgid "Columns"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:34
+msgid "No Paging"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:36
+msgid "If the option is on, it will disable pagination."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:41
+msgid "Limit"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:42
+msgid "Number of item to show per page. If you set it to -1, it will display all portfolio items."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:51
+msgid "Image Height"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:59
+msgid "Sortable"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:61
+msgid "If the option is on, it will disable pagination, displaying all posts by category with sortable."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:66
+msgid "Categories (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:73
+msgid "IDs (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:74
+msgid "The specific portfolios you want to display."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:81
+msgid "Display Title"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:83
+msgid "If the option is on, it will display title of portfolio."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:88
+msgid "Display Description"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:90
+msgid "If the option is on, it will display description of portfolio."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:95
+msgid "More Button Text"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:101
+msgid "Group"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:103
+msgid "If the option is on, the lightbox will display left and right arrow."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:108
+msgid "Long Description"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/portfolio.php:114
+msgid "Scrollable"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/team_member.php:3
+msgid "Team member"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/team_member.php:33
+msgid "Position"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/team_member.php:51
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/contact_info.php:51
+msgid "Phone"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/team_member.php:57
+msgid "Picture url"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/team_member.php:69
+msgid "LinkedIn"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/team_member.php:87
+msgid "YouTube"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/iframe.php:3
+msgid "IFrame"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/iframe.php:27
+msgid "The URL of the page you want to display."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/iframe.php:33
+msgid "Click edit to set iframe source url"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/iframe.php:36
+msgid "Width"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/iframe.php:37
+#, php-format
+msgid "You can use % or px as units for width."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/iframe.php:45
+#, php-format
+msgid "You can use % or px as units for height."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/linkarea.php:3
+msgid "Link area"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/linkarea.php:38
+msgid "Contents"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/linkarea.php:45
+msgid "Target"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/linkarea.php:64
+msgid "Hover Class"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/linkarea.php:65
+msgid "This option is intended only for advanced users. Enter a class name which will be added to the shortcode's wrapper element on hover."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/linkarea.php:71
+msgid "Active Class"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/linkarea.php:72
+msgid "This option is intended only for advanced users. Enter a class name which will be added to the shortcode's wrapper element on click/focus."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/text.php:3
+msgid "Text block"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:31
+msgid "Filter"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:35
+msgid "Pages"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:45
+msgid "Sets the number of items to display.<br>leaving this setting as 0 displays all items."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:54
+msgid "Depth"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:55
+msgid "This parameter controls how many levels in the hierarchy are to be included. <br> 0: Displays pages at any depth and arranges them hierarchically in nested lists<br> -1: Displays pages at any depth and arranges them in a single, flat list<br> 1: Displays top-level Pages only<br> 2, 3 … Displays Pages to the given depth"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:64
+msgid "Posts and portfolios"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:68
+msgid "Show comments"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:75
+msgid "Specific post categories"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:82
+msgid "Specific posts"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:83
+msgid "The specific posts you want to display"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:90
+msgid "Specific portfolio categories"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:102
+msgid "Show Count"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:104
+msgid "Toggles the display of the current count of posts in each category."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:109
+msgid "Show Feed"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/sitemap.php:111
+msgid "Display a link to each category's <a href='http://codex.wordpress.org/Glossary#RSS' target='_blank'>rss-2</a> feed."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/gmap.php:3
+msgid "Google Maps"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/gmap.php:26
+msgid "Width (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/gmap.php:27
+msgid "Set to 0 is the full width."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/gmap.php:115
+msgid "Maptype (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blank.php:3
+msgid "Blank space"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/flickr.php:3
+msgid "Flickr"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/flickr.php:30
+msgid "User"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/flickr.php:36
+msgid "Flickr ID"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/flickr.php:37
+msgid "Use <a href=\"http://idgettr.com/\" target=\"_blank\">idGettr</a> if you don't know your ID."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/flickr.php:43
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:47
+msgid "Count"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/flickr.php:52
+msgid "Display"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/contact_info.php:3
+msgid "Contact info"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/contact_info.php:36
+msgid "---"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/contact_info.php:58
+msgid "Cell Phone"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/contact_info.php:71
+msgid "Address"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/column.php:27
+msgid "This field is optional. Use in case you have to modify the appearance of this column."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slogan.php:3
+msgid "Slogan"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/tabs.php:3
+msgid "Tabs"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/tabs.php:30
+msgid "Autorotate Delay"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/tabs.php:31
+msgid "Set to 0 for manual rotation."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/twitter.php:26
+msgid "Username"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/twitter.php:27
+msgid "Use \",\" to separate multiple users.<br> (e.g <code>user1,user2</code>)."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/twitter.php:33
+msgid "Number of tweets"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/twitter.php:41
+msgid "Query (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/twitter.php:42
+msgid "Uses <a href=\"http://apiwiki.twitter.com/Twitter-Search-API-Method%3A-search\" target=\"_blank\">Twitter's Search API</a>, so you can display any tweets you like."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:38
+msgid "Number of posts to show per row."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:48
+msgid "Number of posts to show per page."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:57
+msgid "Category (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:66
+msgid "Posts (optional)"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:67
+msgid "If you select any posts here, this option will override the category option above."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:77
+msgid "If the option is on, it will display Featured Image of blog post."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:83
+msgid "Display Post Content"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:85
+msgid ""
+"Type 1: If the option is on, it will display the content of the post, otherwise it will display the excerpt.<br>\n"
+"\t\t\t\tType 2: If the option is on, the post excerpt will be shown, otherwise no content will be shown."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/blog.php:92
+msgid "Nopaging"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services.php:3
+msgid "Services"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services.php:44
+msgid "This option overrides the \"Image\" option."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services.php:53
+msgid "This option can be overridden by the \"Icon\" option."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/services.php:66
+msgid "Text Alignment"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:5
+msgid "Vamtam Slider"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:28
+msgid "Slider Name"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:36
+msgid "Set it to 0 for maximum width."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:45
+msgid "If you set it to 0 the slider will be as high as the highest slide."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:53
+msgid "Effect"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:60
+msgid "Animation Speed"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:89
+msgid "Maintain Aspect Ratio"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/config/slider.php:90
+msgid "This is useful if all your slides feature images with the same proportions. If you enable this option your slider will have the same proportions as the original width/height settings, regardless of the screen resolution."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/handlers/text_divider.php:22
+msgid "More"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/handlers/video.php:81
+msgid "No video playback capabilities."
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/handlers/sitemap.php:39
+msgid "RSS"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/handlers/sitemap.php:81
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/handlers/sitemap.php:120
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: /var/www/vamtam/wp-content/themes/makalu/vamtam-editor/shortcodes/handlers/sitemap.php:154
+msgid "Top"
+msgstr ""
+
